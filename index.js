@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require("cors");
 require("dotenv").config();
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const app = express();
 const port = process.env.PORT || 5000;
 
@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
     res.send("Hello Inventory");
 })
 
-app.get("/sku", async (req, res) => {
+app.get("/skus", async (req, res) => {
     const query = {};
     try{
         await client.connect();
@@ -36,6 +36,39 @@ app.get("/sku", async (req, res) => {
         await client.close();
     }
 
+})
+
+app.get("/ownParts", async (req, res) => {
+    const query = {};
+    try{
+        await client.connect();
+        const collection = client.db("inventoryDB").collection("ownParts");
+        const cursor = collection.find(query);
+        const result = await cursor.toArray();
+        res.send(result);
+    } finally {
+        await client.close();
+    }
+
+})
+
+app.get("/ownParts/:id", async (req, res) => {
+    console.log(req.params);
+    const id = req.params.id;
+    const query = {_id : ObjectId(id)};
+    try{
+        await client.connect();
+        const collection = client.db("inventoryDB").collection("ownParts");
+        const result = await collection.findOne(query);
+        console.log(result);
+        res.send(result);
+    } 
+    catch(error) {
+        console.log(error);
+        throw error;
+    }finally {
+        await client.close();
+    }
 })
 
 app.listen(port, () => {
