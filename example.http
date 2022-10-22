@@ -1,0 +1,40 @@
+@hostname = http://localhost:4000/api
+
+
+
+get {{hostname}}
+
+####
+
+get {{ hostname }}/rms
+
+###
+post {{hostname}}/rm
+Content-Type: application/json
+
+{
+    "_id": "62fc5fb6ae01805dfa884c21",
+    "object_id": "5851990100",
+    "source_category": "3rd-Plastic",
+    "rm_category": "INJECTION PART",
+    "sis_code": "RMMRF-5851990100-T-HLDR",
+    "material_name": "TUBE HOLDER_40MM",
+    "unit": "PC"
+}
+
+
+
+###
+
+PATCH {{hostname}}/6343a1682a6396394210966b
+Content-Type: application/json
+
+{
+    "description": "Koushik has to get and verify the closing balance of Liners from Akash"
+}
+
+###
+
+delete {{hostname}}/6343ae1bbe03ab3a51e11190
+
+get http://localhost:5000/
