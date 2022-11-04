@@ -5,6 +5,7 @@ const Schema = mongoose.Schema
 const fgProdSchema = new Schema({
     sku: {
         type: mongoose.Types.ObjectId,
+        ref : "SKU",
         required: true
     },
     quantity : {

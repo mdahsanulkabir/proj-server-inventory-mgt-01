@@ -1,4 +1,4 @@
-@hostname = http://localhost:4000/api
+@hostname = https://srp-planning.onrender.com/api/skus
 
 
 
@@ -21,6 +21,14 @@ Content-Type: application/json
     "sis_code": "RMMRF-5851990100-T-HLDR",
     "material_name": "TUBE HOLDER_40MM",
     "unit": "PC"
+}
+
+###
+post https://srp-planning.onrender.com/api/createwarehouse
+Content-Type: : application/json
+
+{
+    "name":"third shed", "space": 5000, "description":"some data"
 }
 
 

@@ -11,7 +11,8 @@ const { getSKUs,
         deleteRM,
         updateSKU,
         updateRM,
-        postFgProduction
+        postFgProduction,
+        postNewWarehouse
 } = require('../controllers/inventoryController')
 
 ////////////////////   ALL ROUTES FOR SKU    /////////////////////
@@ -51,5 +52,9 @@ router.patch('/rm/:id', updateRM)
 ////////////////////   ALL ROUTES FOR FINISHED GOOD PRODUCTION    /////////////////////
 //Posting a day's production
 router.post('/fg-prod', postFgProduction)
+
+
+//////////////////// ALL WAREHOUSE DESCRIPTION ////////////////////////
+router.post('/createwarehouse', postNewWarehouse)
 
 module.exports = router

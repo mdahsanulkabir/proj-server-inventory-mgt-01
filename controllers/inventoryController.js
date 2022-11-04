@@ -1,6 +1,7 @@
 const RM = require("../models/rmModel")
 const SKU = require('../models/skuModel');
 const FGPROD = require('../models/fgModel')
+const WAREHOUSE = require('../models/newWarehouseModel')
 const mongoose = require('mongoose');
 
 //get all SKU
@@ -32,7 +33,7 @@ const getSKU = async (req, res) => {
     res.status(200).json(sku);
 };
 
-//get singe RM
+//get single RM
 const getRM = async (req, res) => {
     const { id } = req.params;
 
@@ -48,7 +49,7 @@ const getRM = async (req, res) => {
 
 //create a new SKU
 const createSKU = async (req, res) => {
-    console.log(req.body);
+    // console.log(req.body);
     const { model, color, sku } = req.body;
 
     //add doc to db
@@ -167,7 +168,7 @@ const updateRM = async (req, res) => {
 
 
 //post daily FG production
-const postFgProduction = async (res, req) => {
+const postFgProduction = async (req, res) => {
     console.log(req.body);
     //add doc to db
     try {
@@ -179,6 +180,24 @@ const postFgProduction = async (res, req) => {
         res.status(400).json({ error: error.message });
     }
 }
+
+//create new warehouse
+const postNewWarehouse = async ( req, res ) => {
+    console.log(req.body);
+    const { name, space, description } = req.body;
+
+    //add to db
+    try{
+        const newWarehouse = await WAREHOUSE.create({
+            name, 
+            space, 
+            description
+        })
+        res.status(200).json(newWarehouse);
+    } catch ( error ) {
+        res.status(400).json({ error: error.message });
+    }
+};
 
 
 
@@ -193,5 +212,6 @@ module.exports = {
     deleteRM,
     updateSKU,
     updateRM,
-    postFgProduction
+    postFgProduction,
+    postNewWarehouse
 }
