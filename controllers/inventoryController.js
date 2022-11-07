@@ -172,12 +172,11 @@ const updateRM = async (req, res) => {
 //post daily FG production
 const postFgProductionMany = async (req, res) => {
     console.log(req.body);
-    console.log(abi);
     //add doc to db
     try {
         
         const fgProd = await FGPROD.insertMany([
-            ...abi
+            ...req.body
         ])
         res.status(200).json(fgProd);
     } catch (error) {
