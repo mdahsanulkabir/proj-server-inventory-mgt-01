@@ -3,6 +3,8 @@ const SKU = require('../models/skuModel');
 const FGPROD = require('../models/fgModel')
 const WAREHOUSE = require('../models/newWarehouseModel')
 const mongoose = require('mongoose');
+const { abi } = require('./data')
+
 
 //get all SKU
 const getSKUs = async (req, res) => {
@@ -168,18 +170,22 @@ const updateRM = async (req, res) => {
 
 
 //post daily FG production
-const postFgProduction = async (req, res) => {
+const postFgProductionMany = async (req, res) => {
     console.log(req.body);
+    console.log(abi);
     //add doc to db
     try {
-        const fgProd = await FGPROD.insertMany({
-            ...req.body
-        })
+        
+        const fgProd = await FGPROD.insertMany([
+            ...abi
+        ])
         res.status(200).json(fgProd);
     } catch (error) {
         res.status(400).json({ error: error.message });
     }
-}
+};
+
+
 
 //create new warehouse
 const postNewWarehouse = async ( req, res ) => {
@@ -199,6 +205,27 @@ const postNewWarehouse = async ( req, res ) => {
     }
 };
 
+//get all warehouses
+const getWarehouse = async (req, res) => {
+    console.log(req.body);
+    const warehouse = await WAREHOUSE.find({})
+    res.status(200).json(warehouse)
+}
+
+//create a new part
+const createPart = async (req, res) => {
+    const { object_id, source_category, rm_category, sis_code, material_name, unit } = req.body;
+
+    //add to db
+    try{
+        const newPart = await RM.create({
+            object_id, source_category, rm_category, sis_code, material_name, unit
+        })
+        res.status(200).json(newPart);
+    } catch ( error ) {
+        res.status(400).json({ error: error.message });
+    }
+}
 
 
 module.exports = {
@@ -212,6 +239,8 @@ module.exports = {
     deleteRM,
     updateSKU,
     updateRM,
-    postFgProduction,
-    postNewWarehouse
+    postFgProductionMany,
+    postNewWarehouse,
+    getWarehouse,
+    createPart
 }

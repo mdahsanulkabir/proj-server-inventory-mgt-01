@@ -1,4 +1,4 @@
-@hostname = https://srp-planning.onrender.com/api/skus
+@hostname = https://srp-planning.onrender.com
 
 
 
@@ -6,7 +6,7 @@ get {{hostname}}
 
 ####
 
-get {{ hostname }}/rms
+get {{ hostname }}/api/warehouses
 
 
 ###
@@ -44,6 +44,26 @@ Content-Type: application/json
 
 ###
 
-delete {{hostname}}/6343ae1bbe03ab3a51e11190
+delete {{hostname}}/api/rm/63650818b3a865e065531cbf
 
-get http://localhost:5000/
+###
+
+post http://localhost:5000/api/fgprodmany
+Content-Type: application/json
+
+[
+    {
+        "sku": "6353e2a84d7810d0a971abbf",
+        "quantity": 20,
+        "date": "2016-05-05"
+    },
+    {
+        "sku": "6353e2a84d7810d0a971abbf",
+        "quantity": 30,
+        "date": "2016-05-05"
+    }
+]
+
+
+###
+get http://localhost:5000/api/rms
