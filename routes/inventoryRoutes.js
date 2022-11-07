@@ -12,6 +12,7 @@ const { getSKUs,
         updateSKU,
         updateRM,
         postFgProductionMany,
+        getDailyProductionData,
         postNewWarehouse,
         getWarehouse,
         createPart
@@ -54,6 +55,9 @@ router.patch('/rm/:id', updateRM)
 ////////////////////   ALL ROUTES FOR FINISHED GOOD PRODUCTION    /////////////////////
 //Posting a day's production
 router.post('/fgprodmany', postFgProductionMany)
+
+//get daily production data
+router.get('/getDailyFGProduction', getDailyProductionData)
 
 
 //////////////////////////////      ALL WAREHOUSE     ///////////////////////////////
