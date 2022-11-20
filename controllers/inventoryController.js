@@ -189,7 +189,7 @@ const getDailyProductionData = async (req, res) => {
     console.log(req.query);
     const { startDate, endDate } = req.query;
     try {
-        const dailyProdData = await FGPROD.find({}).where('date').gt(startDate).lt(endDate);
+        const dailyProdData = await FGPROD.find({}).where('date').gte(startDate).lte(endDate);
         res.status(200).json(dailyProdData)
     } catch (error) {
         res.status(400).json({ error: error.message });
@@ -202,7 +202,6 @@ const getDailyProductionData = async (req, res) => {
 const postNewWarehouse = async ( req, res ) => {
     console.log(req.body);
     const { name, space, description } = req.body;
-
     //add to db
     try{
         const newWarehouse = await WAREHOUSE.create({
@@ -212,7 +211,7 @@ const postNewWarehouse = async ( req, res ) => {
         })
         res.status(200).json(newWarehouse);
     } catch ( error ) {
-        res.status(400).json({ error: error.message });
+        res.status(400).json({ error: error.message, errorcode: error.code });
     }
 };
 
@@ -238,6 +237,15 @@ const createPart = async (req, res) => {
     }
 }
 
+const admin = require('../firebase-config');
+//create test post
+const createTestPost = async (req, res) => {
+    const he = req.body;
+    const token = req.headers.authorization.split(' ')[1];
+    const decodedValue = await admin.auth().verifyIdToken(token);
+    console.log(decodedValue);
+}
+
 
 module.exports = {
     getSKUs,
@@ -254,5 +262,6 @@ module.exports = {
     getDailyProductionData,
     postNewWarehouse,
     getWarehouse,
-    createPart
+    createPart,
+    createTestPost
 }

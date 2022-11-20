@@ -6,7 +6,7 @@ get {{hostname}}
 
 ####
 
-get {{ hostname }}/api/warehouses
+get {{ hostname }}/api/warehouse
 
 
 ###
@@ -24,11 +24,15 @@ Content-Type: application/json
 }
 
 ###
-post https://srp-planning.onrender.com/api/createwarehouse
+get {{hostname}}/api/rms
+
+
+###
+post http://localhost:5000/api/createwarehouse
 Content-Type: : application/json
 
 {
-    "name":"third shed", "space": 5000, "description":"some data"
+    "name":"Samba samba", "space": 5000, "description":"some samba"
 }
 
 
@@ -71,5 +75,14 @@ get http://localhost:5000/api/rms
 
 
 ###
-get http://localhost:5000/api/getDailyFGProduction/?startDate=2022-02-22&endDate=2022-05-22
+get http://localhost:5000/api/getDailyFGProduction/?startDate=2022-09-22&endDate=2022-05-22
 # get data with date range
+
+
+###
+post http://localhost:5000/api/testing
+Content-Type: application/json
+
+{
+    "b":"hello"
+}

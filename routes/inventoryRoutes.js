@@ -15,7 +15,8 @@ const { getSKUs,
         getDailyProductionData,
         postNewWarehouse,
         getWarehouse,
-        createPart
+        createPart,
+        createTestPost
 } = require('../controllers/inventoryController')
 
 ////////////////////   ALL ROUTES FOR SKU    /////////////////////
@@ -69,6 +70,8 @@ router.get('/warehouse', getWarehouse)
 
 
 router.post('/createpart', createPart)
+
+router.post('/testing', createTestPost)
 
 
 
