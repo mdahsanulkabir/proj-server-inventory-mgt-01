@@ -1,20 +1,35 @@
 const express = require('express');
 const router = express.Router();
 
-const { getSKUs, 
-        getRMs,
+
+const {
+        getSKUs,
         getSKU,
-        getRM,
         createSKU,
-        createRM,
         deleteSKU,
+        updateSKU
+} = require('../controllers/skuController');
+
+const {
+        getRMs,
+        getRM,
+        createRM,
         deleteRM,
-        updateSKU,
-        updateRM,
+        updateRM
+} = require('../controllers/rmController');
+
+const {
         postFgProductionMany,
-        getDailyProductionData,
+        getDailyProductionData
+} = require('../controllers/fgController');
+
+const { 
         postNewWarehouse,
         getWarehouse,
+} = require('../controllers/warehouseController')
+
+
+const { 
         createPart,
         createTestPost
 } = require('../controllers/inventoryController')
@@ -68,8 +83,6 @@ router.post('/createwarehouse', postNewWarehouse)
 //get warehouses
 router.get('/warehouse', getWarehouse)
 
-
-router.post('/createpart', createPart)
 
 router.post('/testing', createTestPost)
 

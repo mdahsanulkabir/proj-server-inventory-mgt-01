@@ -24,7 +24,7 @@ Content-Type: application/json
 }
 
 ###
-get {{hostname}}/api/rms
+get http://localhost:5000/api/skus
 
 
 ###
