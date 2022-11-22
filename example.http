@@ -24,7 +24,7 @@ Content-Type: application/json
 }
 
 ###
-get http://localhost:5000/api/skus
+get http://localhost:5000/api/rm/123654
 
 
 ###
@@ -86,3 +86,7 @@ Content-Type: application/json
 {
     "b":"hello"
 }
+
+
+###
+get http://localhost:5000/haha

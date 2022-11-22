@@ -13,11 +13,11 @@ const getRM = async (req, res) => {
     const { id } = req.params;
 
     if (!mongoose.Types.ObjectId.isValid(id)) {
-        return res.status(404).json({ error: "no such sku" });
+        return res.status(404).json({ error: "no such rm" });
     }
     const rm = await RM.findById({ _id: id });
     if (!rm) {
-        return res.status(404).json({ error: "No such sku" });
+        return res.status(404).json({ error: "No such rm" });
     }
     res.status(200).json(rm);
 };
@@ -48,7 +48,7 @@ const deleteRM = async (req, res) => {
     const { id } = req.params;
 
     if (!mongoose.Types.ObjectId.isValid(id)) {
-        return res.status(404).json({ error: "no such sku" });
+        return res.status(404).json({ error: "no such rm" });
     }
 
     const rm = await RM.findOneAndDelete({ _id: id });
@@ -82,6 +82,7 @@ const updateRM = async (req, res) => {
 
     res.status(200).json(rm);
 };
+
 
 module.exports = {
     getRMs,

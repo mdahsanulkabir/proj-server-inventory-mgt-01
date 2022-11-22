@@ -30,9 +30,12 @@ const {
 
 
 const { 
-        createPart,
         createTestPost
 } = require('../controllers/inventoryController')
+
+const { 
+        getUnits, createUnit, updateUnit
+} = require('../controllers/unitController');
 
 ////////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
@@ -67,6 +70,15 @@ router.delete('/rm/:id', deleteRM)
 //update an RM
 router.patch('/rm/:id', updateRM)
 
+////////////////////   ALL ROUTES FOR UNIT    /////////////////////
+// get units
+router.get('/units', getUnits);
+
+// create unit
+router.post('/unit', createUnit);
+
+// update unit
+router.patch('/unit/:id', updateUnit);
 
 ////////////////////   ALL ROUTES FOR FINISHED GOOD PRODUCTION    /////////////////////
 //Posting a day's production
