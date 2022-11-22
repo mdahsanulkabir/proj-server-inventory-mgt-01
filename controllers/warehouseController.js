@@ -1,9 +1,10 @@
 const WAREHOUSE = require('../models/newWarehouseModel');
 
 
+
 //create new warehouse
 const postNewWarehouse = async ( req, res ) => {
-    console.log(req.body);
+    console.log("from the main function of the route -> ",req.body);
     const { name, space, description } = req.body;
     //add to db
     try{

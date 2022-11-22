@@ -28,11 +28,6 @@ const {
         getWarehouse,
 } = require('../controllers/warehouseController')
 
-
-const { 
-        createTestPost
-} = require('../controllers/inventoryController')
-
 const { 
         getUnits, createUnit, updateUnit
 } = require('../controllers/unitController');
@@ -89,16 +84,13 @@ router.get('/getDailyFGProduction', getDailyProductionData)
 
 
 //////////////////////////////      ALL WAREHOUSE     ///////////////////////////////
+
+const { getUserToken, authenticatedUser } = require('../middleware/userAuthMiddleware')
 //create a warehouse
-router.post('/createwarehouse', postNewWarehouse)
+router.post('/createwarehouse', getUserToken, authenticatedUser, postNewWarehouse)
 
 //get warehouses
 router.get('/warehouse', getWarehouse)
-
-
-router.post('/testing', createTestPost)
-
-
 
 
 module.exports = router
