@@ -32,7 +32,21 @@ const {
         getUnits, createUnit, updateUnit
 } = require('../controllers/unitController');
 
-////////////////////   ALL ROUTES FOR SKU    /////////////////////
+const {
+        createNewUser
+} = require('../controllers/userController');
+
+const { 
+        getUserToken, 
+        authenticatedUser 
+} = require('../middleware/userAuthMiddleware')
+
+const { 
+        checkAdminStatus 
+} = require('../middleware/checkAdminMiddleware')
+
+
+//? //////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
 router.get('/skus', getSKUs)
 
@@ -49,7 +63,7 @@ router.delete('/sku/:id', deleteSKU)
 router.patch('/sku/:id', updateSKU)
 
 
-////////////////////   ALL ROUTES FOR RM    /////////////////////
+//? //////////////////   ALL ROUTES FOR RM    /////////////////////
 //get all RM
 router.get('/rms', getRMs)
 
@@ -65,7 +79,7 @@ router.delete('/rm/:id', deleteRM)
 //update an RM
 router.patch('/rm/:id', updateRM)
 
-////////////////////   ALL ROUTES FOR UNIT    /////////////////////
+//? //////////////////   ALL ROUTES FOR UNIT    /////////////////////
 // get units
 router.get('/units', getUnits);
 
@@ -75,7 +89,7 @@ router.post('/unit', createUnit);
 // update unit
 router.patch('/unit/:id', updateUnit);
 
-////////////////////   ALL ROUTES FOR FINISHED GOOD PRODUCTION    /////////////////////
+//? //////////////////   ALL ROUTES FOR FINISHED GOOD PRODUCTION    /////////////////////
 //Posting a day's production
 router.post('/fgprodmany', postFgProductionMany)
 
@@ -83,14 +97,16 @@ router.post('/fgprodmany', postFgProductionMany)
 router.get('/getDailyFGProduction', getDailyProductionData)
 
 
-//////////////////////////////      ALL WAREHOUSE     ///////////////////////////////
-
-const { getUserToken, authenticatedUser } = require('../middleware/userAuthMiddleware')
+//? ////////////////////////////      ALL WAREHOUSE     ///////////////////////////////
 //create a warehouse
 router.post('/createwarehouse', getUserToken, authenticatedUser, postNewWarehouse)
 
 //get warehouses
-router.get('/warehouse', getWarehouse)
+router.get('/warehouse', getWarehouse);
+
+
+//? ////////////////////////////      ALL USER MANAGEMENT     ///////////////////////////////
+router.post('/create-user', checkAdminStatus, createNewUser);
 
 
 module.exports = router

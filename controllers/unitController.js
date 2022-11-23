@@ -2,7 +2,7 @@ const UNIT = require('../models/unitModel');
 const mongoose = require('mongoose');
 
 //get units
-const getUnits = async ( res, req ) => {
+const getUnits = async ( req, res ) => {
     const units = await UNIT.find({});
     res.status(200).json(units);
 }
