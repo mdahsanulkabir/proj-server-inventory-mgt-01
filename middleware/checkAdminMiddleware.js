@@ -4,15 +4,11 @@ const USER = require('../models/userModel');
 
 const checkAdminStatus = async (req, res, next) => {
     const token = req.headers.authorization.split(' ')[1];
-    console.log(token);
-    console.log(typeof token);
     const credential = await admin.auth().verifyIdToken(token);
     const adminEmail = credential.email;
-    console.log(adminEmail);
     const user = await USER.findOne({userEmail : adminEmail});
-    console.log(user);
     if(user.access.includes("admin")){
-
+        console.log('hello');
         next()
         return;
     } else {

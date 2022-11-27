@@ -25,7 +25,7 @@ const getRM = async (req, res) => {
 //create a new RM
 const createRM = async (req, res) => {
     const { object_id, source_category, rm_category, sis_code, material_name, unit} = req.body;
-
+    console.log(req.body);
     //add doc to db
     try {
         const rm = await RM.create({

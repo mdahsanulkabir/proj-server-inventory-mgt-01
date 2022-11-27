@@ -33,7 +33,9 @@ const {
 } = require('../controllers/unitController');
 
 const {
-        createNewUser
+        createNewUser,
+        updateUser,
+        getUsers
 } = require('../controllers/userController');
 
 const { 
@@ -106,7 +108,14 @@ router.get('/warehouse', getWarehouse);
 
 
 //? ////////////////////////////      ALL USER MANAGEMENT     ///////////////////////////////
+// create a new user
 router.post('/create-user', checkAdminStatus, createNewUser);
+
+// update role and access of existing user
+router.patch('/update-user', checkAdminStatus, updateUser)
+
+// get all user credentials
+router.get('/getUsers', getUsers)
 
 
 module.exports = router

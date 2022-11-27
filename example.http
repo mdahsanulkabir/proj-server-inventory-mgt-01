@@ -83,10 +83,8 @@ get http://localhost:5000/api/getDailyFGProduction/?startDate=2022-09-22&endDate
 post http://localhost:5000/api/testing
 Content-Type: application/json
 
-{
-    "b":"hello"
-}
 
 
 ###
-get http://localhost:5000/haha
+get http://localhost:5000/api/getUsers
+Content-Type: application/json

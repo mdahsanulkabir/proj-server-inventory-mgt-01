@@ -1,26 +1,69 @@
 const USER = require('../models/userModel');
-const admin = require('../firebase-config')
+const admin = require('../firebase-config');
+
+const getUserList = () => {
+  const user = [];
+  admin.auth().listUsers()
+      .then(response => {
+          
+          response.users.forEach((userRecord) => {
+              user.push(userRecord.toJSON())
+          })
+          return user;
+      })
+  
+}
+
+// get users 
+const getUsers = ( req, res ) => {
+  const listedUsers = [];
+  admin.auth().listUsers()
+  .then(response => {
+    response.users.forEach((userRecord) => {
+      listedUsers.push(userRecord.toJSON())
+      // listedUsers.forEach(listedUser => console.log(listedUser.email))
+    })
+    const myUsers = listedUsers.map(listedUser => {
+      return {
+        email: listedUser.email, 
+        uid: listedUser.uid,
+        displayName: listedUser.displayName,
+        emailVerified: listedUser.emailVerified,
+        phoneNumber: listedUser.phoneNumber,
+        photoURL: listedUser.photoURL,
+        disabled: listedUser.disabled,
+      }
+    })
+    res.status(200).json(myUsers)
+  })
+}
 
 //update user
 const updateUser = async ( req, res ) => {
-    const { userEmail, access } = req.body;
+    
+    console.log(req.body);
+    const { uid, email, phoneNumber, emailVerified, displayName, disabled } = req.body;
 
+    admin.auth().updateUser(uid, {
+      email, phoneNumber, disabled, displayName, emailVerified
+    })
+    .then((userRecord) => {
+    // See the UserRecord reference doc for the contents of userRecord.
+    console.log('Successfully updated user', userRecord.toJSON());
+    res.status(200).json(userRecord);
+    })
+    .catch((error) => {
+      console.log('Error updating user:', error);
+      res.status(400).json({ error: error.message });
 
-    try {
-        const newUser = await USER.create({
-            userEmail , access
-        })
-        res.status(200).json(newUser);
-    } catch (error) {
-        res.status(400).json({ error: error.message });
-    }
+    });
+
 }
 
 
 //create new user
 const createNewUser = async ( req, res ) => {
     const { userEmail, password  } = req.body;
-
 
     admin.auth().createUser({
     email: userEmail,
@@ -38,7 +81,9 @@ const createNewUser = async ( req, res ) => {
   });
 }
 
+
 module.exports = {
     createNewUser,
-    updateUser
+    updateUser,
+    getUsers
 }
