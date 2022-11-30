@@ -8,7 +8,7 @@ const checkAdminStatus = async (req, res, next) => {
     const adminEmail = credential.email;
     const user = await USER.findOne({userEmail : adminEmail});
     if(user.access.includes("admin")){
-        console.log('hello');
+        console.log('hello admin');
         next()
         return;
     } else {

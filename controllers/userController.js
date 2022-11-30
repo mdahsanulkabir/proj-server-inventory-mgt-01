@@ -14,7 +14,7 @@ const getUserList = () => {
   
 }
 
-// get users 
+// ? get all users from Firebase 
 const getUsers = ( req, res ) => {
   const listedUsers = [];
   admin.auth().listUsers()
@@ -38,7 +38,7 @@ const getUsers = ( req, res ) => {
   })
 }
 
-//update user
+//update user credentials
 const updateUser = async ( req, res ) => {
     
     console.log(req.body);
@@ -55,9 +55,25 @@ const updateUser = async ( req, res ) => {
     .catch((error) => {
       console.log('Error updating user:', error);
       res.status(400).json({ error: error.message });
-
     });
+}
 
+// update user access
+const updateUserAccess = async ( req, res ) => {
+  const { email, access} = req.body;
+
+  console.log("in coming data : ", email, access);
+
+  try {
+    const newuserAccess = await USER.findOneAndUpdate(
+      { userEmail: email },
+      { access} , { new: true }
+    );
+    console.log(newuserAccess);
+    res.status(200).json(newuserAccess);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
 }
 
 
@@ -85,5 +101,6 @@ const createNewUser = async ( req, res ) => {
 module.exports = {
     createNewUser,
     updateUser,
-    getUsers
+    getUsers,
+    updateUserAccess
 }
