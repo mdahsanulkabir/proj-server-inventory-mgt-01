@@ -21,8 +21,8 @@ const postNewWarehouse = async ( req, res ) => {
 
 //get all warehouses
 const getWarehouse = async (req, res) => {
-    console.log(req.body);
     const warehouse = await WAREHOUSE.find({})
+    console.log(warehouse);
     res.status(200).json(warehouse)
 }
 

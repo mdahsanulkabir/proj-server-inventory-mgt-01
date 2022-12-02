@@ -36,7 +36,8 @@ const {
         createNewUser,
         updateUser,
         getUsers,
-        updateUserAccess
+        updateUserAccess,
+        getUserAccessControl
 } = require('../controllers/userController');
 
 const { 
@@ -118,8 +119,11 @@ router.patch('/update-user', checkAdminStatus, updateUser);
 // get all user credentials
 router.get('/getUsers', getUsers)
 
+// get the user accessControl
+router.get('/getUserAccessControl/:email', checkAdminStatus, getUserAccessControl);
+
 // update user access
-router.patch('/update-user-access', checkAdminStatus, updateUserAccess)
+router.patch('/update-user-access', checkAdminStatus, updateUserAccess);
 
 
 module.exports = router

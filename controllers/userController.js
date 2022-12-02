@@ -58,6 +58,19 @@ const updateUser = async ( req, res ) => {
     });
 }
 
+// get user access control
+const getUserAccessControl = async ( req, res ) => {
+  const { email } = req.params;
+  console.log(email);
+  try {
+    const userAccess = await USER.findOne({userEmail: email})
+    console.log(userAccess);
+    res.status(200).json(userAccess);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+}
+
 // update user access
 const updateUserAccess = async ( req, res ) => {
   const { email, access} = req.body;
@@ -102,5 +115,6 @@ module.exports = {
     createNewUser,
     updateUser,
     getUsers,
-    updateUserAccess
+    updateUserAccess,
+    getUserAccessControl,
 }
