@@ -49,6 +49,10 @@ const {
         checkAdminStatus 
 } = require('../middleware/checkAdminMiddleware')
 
+const {
+        createSupplier
+} = require('../controllers/supplierController')
+
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
@@ -75,7 +79,7 @@ router.get('/rms', getRMs)
 router.get('/rm/:id', getRM)
 
 //create a new RM
-router.post('/rm', createRM)
+router.post('/rm', checkAdminStatus, createRM)
 
 //delete a RM
 router.delete('/rm/:id', deleteRM)
@@ -125,5 +129,9 @@ router.get('/getUserAccessControl/:email', checkAdminStatus, getUserAccessContro
 // update user access
 router.patch('/update-user-access', checkAdminStatus, updateUserAccess);
 
+
+//? ////////////////////////////      SUPPLIER MANAGEMENT     ///////////////////////////////
+// create a new supplier
+router.post('/createSupplier', getUserToken, authenticatedUser, createSupplier)
 
 module.exports = router

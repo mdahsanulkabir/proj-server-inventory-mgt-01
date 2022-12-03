@@ -1,4 +1,5 @@
 const admin = require('../firebase-config')
+const USER = require ('../models/userModel')
 
 
 
@@ -9,7 +10,8 @@ const getUserToken = async (req, res, next) => {
     const token = req.headers.authorization.split(' ')[1];
     const credential = await admin.auth().verifyIdToken(token);
     console.log("at getUserToken middleware, logged in user email is ->  ", credential.email);
-    req.email = credential.email;
+    req.body.credential = credential;
+    
     next()
 }
 
@@ -17,22 +19,38 @@ const getUserToken = async (req, res, next) => {
 
 //? it will pull all the users' records from firebase, then put their email id in an array
 //? then it will show the email address of the connected user and move to next middleware
-const authenticatedUser = ( req, res, next ) => {
-    admin.auth().listUsers()
-        .then(response => {
-            connectedUser = req.email;
-            console.log("at authenticatedUser middleware, logged in user email is ->  ",connectedUser);
+const authenticatedUser = async ( req, res, next ) => {
+
+
+    //? i forgot why i did this for creating newWarehouse
+    // admin.auth().listUsers()
+    //     .then(response => {
+    //         connectedUser = req.email;
+    //         console.log("at authenticatedUser middleware, logged in user email is ->  ",connectedUser);
             
-            const user = [];
-            response.users.forEach((userRecord) => {
-                user.push(userRecord.toJSON().email)
-            })
-            // console.log(user);
-            const email = user.find(userDB => userDB === connectedUser)
-            console.log(email, "  -> email is found in user list");
+    //         const user = [];
+    //         response.users.forEach((userRecord) => {
+    //             user.push(userRecord.toJSON().email)
+    //         })
+    //         // console.log(user);
+    //         const email = user.find(userDB => userDB === connectedUser)
+    //         console.log(email, "  -> email is found in user list");
             
-            next()
-        })
+    //         next()
+    //     })
+
+    const credential = req.body.credential;
+    console.log("at authenticatedUser, the credential is",req.body.credential);
+    try {
+        const user = await USER.findOne({userEmail : credential.email})
+        const access = user.access;
+        req.body.access = access;
+        next()
+        return;
+
+    } catch (error ) {
+        res.status(400).json({ error: error.message });
+    }
 }
 
 module.exports = {
