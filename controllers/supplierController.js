@@ -13,8 +13,6 @@ const createSupplier = async ( req, res ) => {
             supplierCategory,
             access } = req.body;
 
-            console.log("at createSupplier ... ",access);
-
     //add doc to db
     try {
         const newSupplier = await SUPPLIER.create({

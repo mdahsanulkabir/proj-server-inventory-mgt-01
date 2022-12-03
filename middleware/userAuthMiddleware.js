@@ -21,26 +21,7 @@ const getUserToken = async (req, res, next) => {
 //? then it will show the email address of the connected user and move to next middleware
 const authenticatedUser = async ( req, res, next ) => {
 
-
-    //? i forgot why i did this for creating newWarehouse
-    // admin.auth().listUsers()
-    //     .then(response => {
-    //         connectedUser = req.email;
-    //         console.log("at authenticatedUser middleware, logged in user email is ->  ",connectedUser);
-            
-    //         const user = [];
-    //         response.users.forEach((userRecord) => {
-    //             user.push(userRecord.toJSON().email)
-    //         })
-    //         // console.log(user);
-    //         const email = user.find(userDB => userDB === connectedUser)
-    //         console.log(email, "  -> email is found in user list");
-            
-    //         next()
-    //     })
-
     const credential = req.body.credential;
-    console.log("at authenticatedUser, the credential is",req.body.credential);
     try {
         const user = await USER.findOne({userEmail : credential.email})
         const access = user.access;
