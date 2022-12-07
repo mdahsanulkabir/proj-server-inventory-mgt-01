@@ -15,6 +15,7 @@ const postFgProductionMany = async (req, res) => {
     }
 };
 
+
 //get daily production data
 const getDailyProductionData = async (req, res) => {
     console.log(req.query);

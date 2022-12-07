@@ -1,8 +1,8 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema
 
-const rmSchema = new Schema({
+const sfgBOMSchema = new Schema({
     object_id: {
         type: String,
         required: true
@@ -10,10 +10,6 @@ const rmSchema = new Schema({
     source_category : {
         type: String,
         required: true
-    },
-    rm_category : {
-        type: String,
-        required: false
     },
     sis_code: {
         type: String,
@@ -23,11 +19,16 @@ const rmSchema = new Schema({
         type: String,
         required: true
     },
-    unit: {
-        type: String,
+    children : {
+        type: [Schema.Types.ObjectId],
+        refPath: 'model_type',
+        required : true,
+    },
+    model_type : {
+        type : String,
+        enum: ['RM','SFGBOM'],
         required: true
     }
 }, { timestamps: true })
 
-module.exports = mongoose.model('RM', rmSchema)
-
+module.exports = mongoose.model('SFGBOM', sfgBOMSchema);

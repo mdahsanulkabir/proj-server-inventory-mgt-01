@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 
 const fgProdSchema = new Schema({
     sku: {
-        type: mongoose.Types.ObjectId,
+        type: mongoose.Schema.Types.ObjectId,
         ref : "SKU",
         required: true
     },
@@ -17,5 +17,6 @@ const fgProdSchema = new Schema({
         required : true
     }
 }, { timestamps: true })
+
 
 module.exports = mongoose.model('FGPROD', fgProdSchema)

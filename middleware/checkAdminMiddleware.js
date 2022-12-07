@@ -4,16 +4,20 @@ const USER = require('../models/userModel');
 
 const checkAdminStatus = async (req, res, next) => {
     const token = req.headers.authorization.split(' ')[1];
-    const credential = await admin.auth().verifyIdToken(token);
-    const adminEmail = credential.email;
-    const user = await USER.findOne({userEmail : adminEmail});
-    if(user.access.includes("admin")){
-        console.log('hello admin');
-        console.log(req.params);
-        next()
-        return;
-    } else {
-        res.status(400).json({"error":"you are not an admin"});
+    try {
+        const credential = await admin.auth().verifyIdToken(token);
+        const adminEmail = credential.email;
+        const user = await USER.findOne({userEmail : adminEmail});
+        if(user.access.includes("admin")){
+            console.log('hello admin');
+            console.log(req.params);
+            next()
+            return;
+        } else {
+            res.status(400).json({"error":"you are not an admin"});
+        }
+    } catch (error) {
+        res.status(400).json({error})
     }
 }
 
