@@ -75,7 +75,7 @@ get http://localhost:5000/api/rms
 
 
 ###
-get http://localhost:5000/api/getDailyFGProduction/?startDate=2022-09-22&endDate=2022-05-22
+get http://localhost:5000/api/getDailyFGProduction/?startDate=2022-08-22&endDate=2022-08-30
 # get data with date range
 
 
@@ -87,4 +87,38 @@ Content-Type: application/json
 
 ###
 get http://localhost:5000/api/getUsers
+
+
+
+###
+post http://localhost:5000/api/createSFGBOM
 Content-Type: application/json
+
+{
+    "object_id": "6353e2a84d7810d0a971abbf",
+    "source_category": "F",
+    "sis_code": "x355334",
+    "material_name" : "bla-Bla",
+    "children" : [
+        {
+            "object_id" : "6353cd5a4d7810d0a95984f3",
+            "model_type" : "RM",
+            "quantity" : 4
+        },
+        {
+            "object_id" : "6353e2a84d7810d0a971abbf",
+            "model_type" : "SFGBOM",
+            "quantity" : 5
+        },
+        {
+            "object_id" : "6390a87e052746097c3a9b08",
+            "model_type" : "SFGBOM",
+            "quantity" : 5
+        },
+        {
+            "object_id" : "6390a8dd052746097c3a9b0c",
+            "model_type" : "SFGBOM",
+            "quantity" : 5
+        }
+    ]
+}

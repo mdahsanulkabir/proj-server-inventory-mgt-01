@@ -53,39 +53,43 @@ const {
         createSupplier
 } = require('../controllers/supplierController')
 
+const {
+        createSFGBOM
+} = require('../controllers/sfgBOMController.js')
+
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
-router.get('/skus', getSKUs)
+router.get('/skus', getSKUs);
 
 //get a single SKU
-router.get('/sku/:id', getSKU)
+router.get('/sku/:id', getSKU);
 
 //create a new SKU
-router.post('/sku', createSKU)
+router.post('/sku', createSKU);
 
 //delete a SKU
-router.delete('/sku/:id', deleteSKU)
+router.delete('/sku/:id', deleteSKU);
 
 //update an SKU
-router.patch('/sku/:id', updateSKU)
+router.patch('/sku/:id', updateSKU);
 
 
 //? //////////////////   ALL ROUTES FOR RM    /////////////////////
 //get all RM
-router.get('/rms', getRMs)
+router.get('/rms', getRMs);
 
 //get a single RM
-router.get('/rm/:id', getRM)
+router.get('/rm/:id', getRM);
 
 //create a new RM
-router.post('/rm', checkAdminStatus, createRM)
+router.post('/rm', checkAdminStatus, createRM);
 
 //delete a RM
-router.delete('/rm/:id', deleteRM)
+router.delete('/rm/:id', deleteRM);
 
 //update an RM
-router.patch('/rm/:id', updateRM)
+router.patch('/rm/:id', updateRM);
 
 //? //////////////////   ALL ROUTES FOR UNIT    /////////////////////
 // get units
@@ -99,15 +103,15 @@ router.patch('/unit/:id', updateUnit);
 
 //? //////////////////   ALL ROUTES FOR FINISHED GOOD PRODUCTION    /////////////////////
 //Posting a day's production
-router.post('/fgprodmany', postFgProductionMany)
+router.post('/fgprodmany', postFgProductionMany);
 
 //get daily production data
-router.get('/getDailyFGProduction', getDailyProductionData)
+router.get('/getDailyFGProduction', getDailyProductionData);
 
 
 //? ////////////////////////////      ALL WAREHOUSE     ///////////////////////////////
 //create a warehouse
-router.post('/createwarehouse', getUserToken, authenticatedUser, postNewWarehouse)
+router.post('/createwarehouse', getUserToken, authenticatedUser, postNewWarehouse);
 
 //get warehouses
 router.get('/warehouse', getWarehouse);
@@ -121,7 +125,7 @@ router.post('/create-user', checkAdminStatus, createNewUser);
 router.patch('/update-user', checkAdminStatus, updateUser);
 
 // get all user credentials
-router.get('/getUsers', getUsers)
+router.get('/getUsers', getUsers);
 
 // get the user accessControl
 router.get('/getUserAccessControl/:email', checkAdminStatus, getUserAccessControl);
@@ -132,6 +136,11 @@ router.patch('/update-user-access', checkAdminStatus, updateUserAccess);
 
 //? ////////////////////////////      SUPPLIER MANAGEMENT     ///////////////////////////////
 // create a new supplier
-router.post('/createSupplier', getUserToken, authenticatedUser, createSupplier)
+router.post('/createSupplier', getUserToken, authenticatedUser, createSupplier);
+
+
+//? ///////////////////////////   BOM MANAGEMENT   ////////////////////////////////
+// create sfgBOM
+router.post('/createSFGBOM', createSFGBOM);
 
 module.exports = router

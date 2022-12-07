@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema
 
 const sfgBOMSchema = new Schema({
-    object_id: {
+    object_id: {              //? this will come from SAP provided id
         type: String,
         required: true
     },
@@ -20,14 +20,31 @@ const sfgBOMSchema = new Schema({
         required: true
     },
     children : {
-        type: [Schema.Types.ObjectId],
-        refPath: 'model_type',
-        required : true,
+        type : [ {
+            // new Schema({
+            object_id : {
+                type: Schema.Types.ObjectId,
+                refPath: 'model_type',
+                required : true,
+            },
+            model_type : {
+                type : String,
+                enum: ['RM','SFGBOM'],
+                required: true
+            },
+            quantity : {
+                type: Number,
+                required : true
+            }
+        // })
+        }
+        ],
+        required: true,
+        default : undefined
     },
-    model_type : {
-        type : String,
-        enum: ['RM','SFGBOM'],
-        required: true
+    unit: {
+        type: String,
+        default: 'pcs'
     }
 }, { timestamps: true })
 
