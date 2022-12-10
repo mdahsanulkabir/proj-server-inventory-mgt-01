@@ -24,7 +24,7 @@ Content-Type: application/json
 }
 
 ###
-get http://localhost:5000/api/rm/123654
+get http://localhost:5000/api/rm/6353cd5a4d7810d0a95984f7
 
 
 ###
@@ -106,19 +106,25 @@ Content-Type: application/json
             "quantity" : 4
         },
         {
-            "object_id" : "6353e2a84d7810d0a971abbf",
+            "object_id" : "63918aae7672b80ed5411a7f",
             "model_type" : "SFGBOM",
             "quantity" : 5
         },
         {
-            "object_id" : "6390a87e052746097c3a9b08",
+            "object_id" : "63918aeb7672b80ed5411a82",
             "model_type" : "SFGBOM",
-            "quantity" : 5
+            "quantity" : 50
         },
         {
-            "object_id" : "6390a8dd052746097c3a9b0c",
+            "object_id" : "63918b0a7672b80ed5411a86",
             "model_type" : "SFGBOM",
-            "quantity" : 5
+            "quantity" : 50
         }
     ]
 }
+
+
+###
+get http://localhost:5000/api/sfgBOM/639191a72b71840bc8646a1b
+
+

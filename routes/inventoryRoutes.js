@@ -55,6 +55,7 @@ const {
 
 const {
         createSFGBOM
+        ,getSFGBOM
 } = require('../controllers/sfgBOMController.js')
 
 
@@ -142,5 +143,7 @@ router.post('/createSupplier', getUserToken, authenticatedUser, createSupplier);
 //? ///////////////////////////   BOM MANAGEMENT   ////////////////////////////////
 // create sfgBOM
 router.post('/createSFGBOM', createSFGBOM);
+
+router.get('/sfgBOM/:sfgID', getSFGBOM);
 
 module.exports = router

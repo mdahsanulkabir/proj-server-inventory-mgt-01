@@ -9,6 +9,7 @@ const sfgBOMSchema = new Schema({
     },
     source_category : {
         type: String,
+        enum: ["F", "3rd-Plastic", "3rd-Sheet"],
         required: true
     },
     sis_code: {
@@ -19,12 +20,11 @@ const sfgBOMSchema = new Schema({
         type: String,
         required: true
     },
-    children : {
-        type : [ {
+    children : [ {
             // new Schema({
             object_id : {
                 type: Schema.Types.ObjectId,
-                refPath: 'model_type',
+                refPath: 'children.model_type',
                 required : true,
             },
             model_type : {
@@ -39,9 +39,7 @@ const sfgBOMSchema = new Schema({
         // })
         }
         ],
-        required: true,
-        default : undefined
-    },
+        
     unit: {
         type: String,
         default: 'pcs'

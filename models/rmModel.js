@@ -26,6 +26,17 @@ const rmSchema = new Schema({
     unit: {
         type: String,
         required: true
+    },
+    sap_code : {
+        type: String
+    },
+    sec_source_category : {
+        type: String
+    },
+    obsolete : {
+        type : Boolean,
+        required: true,
+        default : false
     }
 }, { timestamps: true })
 
