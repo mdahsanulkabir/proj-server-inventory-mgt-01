@@ -128,3 +128,10 @@ Content-Type: application/json
 get http://localhost:5000/api/sfgBOM/639191a72b71840bc8646a1b
 
 
+###
+post http://localhost:5000/api/createSfgSourceCategory
+Content-Type: application/json
+
+{
+    "source_category" : "Pre Assembly"
+}

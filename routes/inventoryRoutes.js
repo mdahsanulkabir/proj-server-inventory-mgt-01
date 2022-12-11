@@ -56,7 +56,14 @@ const {
 const {
         createSFGBOM
         ,getSFGBOM
-} = require('../controllers/sfgBOMController.js')
+} = require('../controllers/sfgBOMController')
+
+const {
+        getSfgSourceCategory,
+        createSfgSourceCategory,
+        deleteSfgSourceCategory,
+        updateSfgSourceCategory
+} = require('../controllers/sfgSourceCategoryController')
 
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
@@ -145,5 +152,13 @@ router.post('/createSupplier', getUserToken, authenticatedUser, createSupplier);
 router.post('/createSFGBOM', createSFGBOM);
 
 router.get('/sfgBOM/:sfgID', getSFGBOM);
+
+
+//? ///////////////////////////   SFG SOURCE CATEGORY   ///////////////////////////
+//create SFG SOURCE CATEGORY
+router.post('/createSfgSourceCategory', createSfgSourceCategory);
+
+// get the sfg source categories
+router.get('/getSfgSourceCategory', getSfgSourceCategory);
 
 module.exports = router

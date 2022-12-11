@@ -8,17 +8,30 @@ const sfgBOMSchema = new Schema({
         required: true
     },
     source_category : {
+        type: Schema.Types.ObjectId,
+        ref: "SFGSOURCECATEGORY",
+        required: true
+    },
+    sap_code: {
         type: String,
-        enum: ["F", "3rd-Plastic", "3rd-Sheet"],
         required: true
     },
     sis_code: {
         type: String,
         required: true
     },
+    sfg_category: {
+        type: String,
+        required: true
+    },
     material_name: {
         type: String,
         required: true
+    },
+    obsolete: {
+        type: Boolean,
+        required: true,
+        default: false
     },
     children : [ {
             // new Schema({
