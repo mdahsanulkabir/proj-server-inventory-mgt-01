@@ -65,6 +65,13 @@ const {
         updateSfgSourceCategory
 } = require('../controllers/sfgSourceCategoryController')
 
+const {
+        getSfgCategory,
+        createSfgCategory,
+        deleteSfgCategory,
+        updateSfgCategory
+} = require('../controllers/sfgCategoryController')
+
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
@@ -160,5 +167,13 @@ router.post('/createSfgSourceCategory', createSfgSourceCategory);
 
 // get the sfg source categories
 router.get('/getSfgSourceCategory', getSfgSourceCategory);
+
+//? ///////////////////////////   SFG  CATEGORY   ///////////////////////////
+//create SFG SOURCE CATEGORY
+router.post('/createSfgCategory', createSfgCategory);
+
+// get the sfg source categories
+router.get('/getSfgCategory', getSfgCategory);
+
 
 module.exports = router

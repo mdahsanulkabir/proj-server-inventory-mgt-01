@@ -4,15 +4,23 @@ const mongoose = require("mongoose")
 const createSFGBOM = async ( req, res ) => {
     console.log(req.body);
 
-    const { object_id, source_category, sis_code,
-        material_name, children } = req.body
+    const { 
+        object_id,
+        material_name,
+        source_category,
+        sfg_category,
+        sap_code,
+        sis_code,
+        children } = req.body;
 
     try {
         const newSfgBOM = await SFGBOM.create({
             object_id,
-            source_category,
-            sis_code,
             material_name,
+            source_category,
+            sfg_category,
+            sap_code,
+            sis_code,
             children
         })
         res.status(200).json(newSfgBOM);

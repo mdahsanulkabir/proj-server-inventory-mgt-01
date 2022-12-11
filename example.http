@@ -135,3 +135,32 @@ Content-Type: application/json
 {
     "source_category" : "Pre Assembly"
 }
+
+
+
+###
+post http://localhost:5000/api/createSfgCategory
+Content-Type: application/json
+
+{
+    "sfg_category" : "COMPLETE BODY"
+}
+
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

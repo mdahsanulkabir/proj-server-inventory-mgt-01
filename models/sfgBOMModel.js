@@ -21,7 +21,8 @@ const sfgBOMSchema = new Schema({
         required: true
     },
     sfg_category: {
-        type: String,
+        type: Schema.Types.ObjectId,
+        ref: "SFGCATEGORY",
         required: true
     },
     material_name: {
