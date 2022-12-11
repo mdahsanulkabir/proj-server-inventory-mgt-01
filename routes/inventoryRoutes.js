@@ -54,8 +54,9 @@ const {
 } = require('../controllers/supplierController')
 
 const {
-        createSFGBOM
-        ,getSFGBOM
+        createSFGBOM,
+        getSFGBOM,
+        getOneSFGBOM
 } = require('../controllers/sfgBOMController')
 
 const {
@@ -158,7 +159,11 @@ router.post('/createSupplier', getUserToken, authenticatedUser, createSupplier);
 // create sfgBOM
 router.post('/createSFGBOM', createSFGBOM);
 
-router.get('/sfgBOM/:sfgID', getSFGBOM);
+//get all sfg bom
+router.get('/sfgBOM', getSFGBOM);
+
+//get single sfgBOM
+router.get('/sfgBOM/:sfgID', getOneSFGBOM);
 
 
 //? ///////////////////////////   SFG SOURCE CATEGORY   ///////////////////////////

@@ -29,7 +29,20 @@ const createSFGBOM = async ( req, res ) => {
     }
 }
 
-const getSFGBOM = async ( req, res ) => {
+//all sfg bom
+const getSFGBOM = async (req,res) => {
+    try {
+        const sfg = await SFGBOM.find({}).populate({
+            path : 'children.object_id'
+        })
+        res.status(200).json(sfg);
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+}
+
+//get single SFG BOM
+const getOneSFGBOM = async ( req, res ) => {
     const { sfgID } = req.params
     try {
         if (!mongoose.Types.ObjectId.isValid(sfgID)) {
@@ -49,5 +62,6 @@ const getSFGBOM = async ( req, res ) => {
 
 module.exports = {
     createSFGBOM,
-    getSFGBOM
+    getSFGBOM,
+    getOneSFGBOM
 }
