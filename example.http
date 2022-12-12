@@ -86,7 +86,7 @@ Content-Type: application/json
 
 
 ###
-get http://localhost:5000/api/sfgBOM
+get http://localhost:5000/api/sfgBOM/6395e2fcf908b61d08bf579c
 
 
 

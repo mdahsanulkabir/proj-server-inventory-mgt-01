@@ -3,6 +3,7 @@ const USER = require('../models/userModel');
 
 
 const checkAdminStatus = async (req, res, next) => {
+    console.log(req.headers.authorization);
     const token = req.headers.authorization.split(' ')[1];
     try {
         const credential = await admin.auth().verifyIdToken(token);

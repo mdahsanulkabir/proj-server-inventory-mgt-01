@@ -157,7 +157,7 @@ router.post('/createSupplier', getUserToken, authenticatedUser, createSupplier);
 
 //? ///////////////////////////   BOM MANAGEMENT   ////////////////////////////////
 // create sfgBOM
-router.post('/createSFGBOM', createSFGBOM);
+router.post('/createSFGBOM', checkAdminStatus, createSFGBOM);
 
 //get all sfg bom
 router.get('/sfgBOM', getSFGBOM);
