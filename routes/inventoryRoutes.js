@@ -56,7 +56,8 @@ const {
 const {
         createSFGBOM,
         getSFGBOM,
-        getOneSFGBOM
+        getOneSFGBOM,
+        updateSFGBOM
 } = require('../controllers/sfgBOMController')
 
 const {
@@ -179,6 +180,9 @@ router.post('/createSfgCategory', createSfgCategory);
 
 // get the sfg source categories
 router.get('/getSfgCategory', getSfgCategory);
+
+// update Sfg bom
+router.patch('/update-sfgBOM/:sfgId', updateSFGBOM);
 
 
 module.exports = router

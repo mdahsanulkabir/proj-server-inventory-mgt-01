@@ -60,8 +60,40 @@ const getOneSFGBOM = async ( req, res ) => {
     }
 }
 
+const updateSFGBOM = async ( req, res ) => {
+    const { sfgId} = req.params;
+    const { 
+        object_id,
+        material_name,
+        source_category,
+        sfg_category,
+        sap_code,
+        sis_code,
+        children 
+    } = req.body
+
+    try {
+        const updatedSFG = await SFGBOM.findOneAndUpdate(
+            { _id : sfgId },
+            {
+                object_id,
+                material_name,
+                source_category,
+                sfg_category,
+                sap_code,
+                sis_code,
+                children
+            }
+        )
+        res.status(200).json(updatedSFG);
+    } catch (  error ) {
+        res.status(400).json({ error: error.message });
+    }
+}
+
 module.exports = {
     createSFGBOM,
     getSFGBOM,
-    getOneSFGBOM
+    getOneSFGBOM,
+    updateSFGBOM
 }
