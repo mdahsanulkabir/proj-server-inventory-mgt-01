@@ -75,6 +75,14 @@ const {
         updateSfgCategory
 } = require('../controllers/sfgCategoryController')
 
+const {
+        createPhantomPart,
+        getPhantomParts,
+        getOnePhantomPart,
+        updatePhantomPart,
+        deletePhantomPart
+} = require ('../controllers/phantomPartsController')
+
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
