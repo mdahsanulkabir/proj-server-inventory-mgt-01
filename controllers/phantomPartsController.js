@@ -1,4 +1,4 @@
-const PHANTOMPARTS = require('../models/phantomPartsModel');
+const PHANTOMPART = require('../models/phantomPartModel');
 const mongoose = require("mongoose")
 
 const createPhantomPart = async ( req, res ) => {
@@ -7,7 +7,7 @@ const createPhantomPart = async ( req, res ) => {
     const { object_id, substitutes } = req.body;
 
     try {
-        const newPhantomPart = await PHANTOMPARTS.create({
+        const newPhantomPart = await PHANTOMPART.create({
             object_id, substitutes
         })
         res.status(200).json(newPhantomPart);
@@ -20,7 +20,7 @@ const getPhantomParts = async ( req, res ) => {
     console.log(req.body);
 
     try {
-        const newPhantomPart = await PHANTOMPARTS.find({})
+        const newPhantomPart = await PHANTOMPART.find({})
         res.status(200).json(newPhantomPart);
     } catch ( error ) {
         res.status(400).json({ error: error.message });
@@ -31,7 +31,7 @@ const getOnePhantomPart = async ( req, res ) => {
     const { phantomPartId } = req.params;
 
     try {
-        const newPhantomPart = await PHANTOMPARTS.findById({
+        const newPhantomPart = await PHANTOMPART.findById({
             _id : phantomPartId
         })
         res.status(200).json(newPhantomPart);
@@ -45,7 +45,7 @@ const updatePhantomPart = async ( req, res ) => {
     const { phantomPartId } = req.params;
 
     try {
-        const newPhantomPart = await PHANTOMPARTS.findByIdAndUpdate(
+        const newPhantomPart = await PHANTOMPART.findByIdAndUpdate(
             { _id : phantomPartId },
             { object_id, substitutes }
         )
@@ -60,7 +60,7 @@ const deletePhantomPart = async ( req, res ) => {
     const { phantomPartId } = req.params;
 
     try {
-        const newPhantomPart = await PHANTOMPARTS.findOneAndDelete({
+        const newPhantomPart = await PHANTOMPART.findOneAndDelete({
             _id : phantomPartId
         })
         res.status(200).json(newPhantomPart);

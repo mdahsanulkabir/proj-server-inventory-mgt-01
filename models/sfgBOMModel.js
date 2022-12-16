@@ -15,7 +15,7 @@ const sfgBOMSchema = new Schema({
     sap_code: {
         type: String,
         required: true
-    },
+    }, 
     sis_code: {
         type: String,
         required: true
