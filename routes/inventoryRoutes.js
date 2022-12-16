@@ -209,12 +209,10 @@ router.get('/getPhantomParts', getPhantomParts);
 router.get('/getOnePhantomPart/:phantomPartId', getOnePhantomPart);
 
 // update a phantom part
-router.get('/updatePhantomPart/:phantomPartId', updatePhantomPart);
+router.patch('/updatePhantomPart/:phantomPartId', updatePhantomPart);
 
 // delete a phantom part
-router.get('/deletePhantomPart/:phantomPartId', deletePhantomPart);
-
-
+router.delete('/deletePhantomPart/:phantomPartId', deletePhantomPart);
 
 
 module.exports = router
