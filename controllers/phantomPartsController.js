@@ -1,4 +1,6 @@
 const PHANTOMPART = require('../models/phantomPartModel');
+const SFGSOURCECATEGORY = require ('../models/sfgSourceCategoryModel');
+const SFGCATEGORY = require ('../models/sfgCategoryModel');
 const mongoose = require("mongoose")
 
 const createPhantomPart = async ( req, res ) => {
@@ -6,11 +8,12 @@ const createPhantomPart = async ( req, res ) => {
 
     const { object_id,
             material_name,
-            source_category,
-            sfg_category,
             sap_code,
             sis_code,
-            children } = req.body;
+            substitutes } = req.body;
+
+    const source_category = await SFGSOURCECATEGORY.findOne({source_category : "Phantom"})
+    const sfg_category = await SFGCATEGORY.findOne({sfg_category : "Phantom"})
 
     try {
         const newPhantomPart = await PHANTOMPART.create({
@@ -20,8 +23,9 @@ const createPhantomPart = async ( req, res ) => {
             sfg_category,
             sap_code,
             sis_code,
-            children
+            substitutes
         })
+        console.log(newPhantomPart);
         res.status(200).json(newPhantomPart);
     } catch ( error ) {
         res.status(400).json({ error: error.message });

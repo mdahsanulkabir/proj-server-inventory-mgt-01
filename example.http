@@ -135,6 +135,22 @@ get http://localhost:5000/api/getsfgtestdata
 
 ###
 
+post http://localhost:5000/api/createPhantomPart
+Content-Type: application/json
+
+{
+  "object_id": "5660200247",
+  "material_name": "Door Liner (Deep)-243R, 273R",
+  "source_category": "phantom",
+  "sfg_category": "phantom",
+  "sap_code": "5660200247",
+  "sis_code": "phantom-5660200247",
+  "substitutes": [
+    { "object_id": "6398657223328b7eeff9243f", "model_type": "SFGBOM" },
+    { "object_id": "639b10a9271634c6f49fe5ae", "model_type": "SFGBOM" }
+  ]
+}
+
 
 
 
