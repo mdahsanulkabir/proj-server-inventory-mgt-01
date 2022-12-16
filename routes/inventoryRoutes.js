@@ -197,4 +197,24 @@ router.get('/getSfgCategory', getSfgCategory);
 router.patch('/update-sfgBOM/:sfgId', updateSFGBOM);
 
 
+//? ///////////////////////////// PHANTOM PARTS ////////////////////////////////
+
+// create a phantom part
+router.post('/createPhantomPart', createPhantomPart);
+
+// get all phantom parts
+router.get('/getPhantomParts', getPhantomParts);
+
+//get one phantom part
+router.get('/getOnePhantomPart/:phantomPartId', getOnePhantomPart);
+
+// update a phantom part
+router.get('/updatePhantomPart/:phantomPartId', updatePhantomPart);
+
+// delete a phantom part
+router.get('/deletePhantomPart/:phantomPartId', deletePhantomPart);
+
+
+
+
 module.exports = router
