@@ -4,11 +4,23 @@ const mongoose = require("mongoose")
 const createPhantomPart = async ( req, res ) => {
     console.log(req.body);
 
-    const { object_id, substitutes } = req.body;
+    const { object_id,
+            material_name,
+            source_category,
+            sfg_category,
+            sap_code,
+            sis_code,
+            children } = req.body;
 
     try {
         const newPhantomPart = await PHANTOMPART.create({
-            object_id, substitutes
+            object_id,
+            material_name,
+            source_category,
+            sfg_category,
+            sap_code,
+            sis_code,
+            children
         })
         res.status(200).json(newPhantomPart);
     } catch ( error ) {
@@ -47,7 +59,8 @@ const updatePhantomPart = async ( req, res ) => {
     try {
         const newPhantomPart = await PHANTOMPART.findByIdAndUpdate(
             { _id : phantomPartId },
-            { object_id, substitutes }
+            { object_id, substitutes },
+            { new : true }
         )
         res.status(200).json(newPhantomPart);
     } catch ( error ) {
