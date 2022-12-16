@@ -57,7 +57,8 @@ const {
         createSFGBOM,
         getSFGBOM,
         getOneSFGBOM,
-        updateSFGBOM
+        updateSFGBOM,
+        getTestData
 } = require('../controllers/sfgBOMController')
 
 const {
@@ -165,6 +166,9 @@ router.get('/sfgBOM', getSFGBOM);
 
 //get single sfgBOM
 router.get('/sfgBOM/:sfgID', getOneSFGBOM);
+
+//get test data
+router.get('/getsfgtestdata', getTestData);
 
 
 //? ///////////////////////////   SFG SOURCE CATEGORY   ///////////////////////////

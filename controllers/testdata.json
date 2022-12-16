@@ -1,0 +1,5333 @@
+[
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9237f",
+    "object_id": "5852190100",
+    "sap_code": "5852190100",
+    "sis_code": "RMMRF-U-D-T-P-5852190100",
+    "material_name": "UPPER_DOOR_TOP_CAP_HINGE_PIN_HOUSING",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de0",
+        "model_type": "RM",
+        "quantity": 0.00197,
+        "_id": "6398815dee23a8f220a71f5a"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dda",
+        "model_type": "RM",
+        "quantity": 0.00003,
+        "_id": "6398815dee23a8f220a71f5b"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:42:53.839Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92378",
+    "object_id": "5849740100",
+    "sap_code": "5849740100",
+    "sis_code": "RMMRF-TRAV-5849740100",
+    "material_name": "BOTTOM_FRONT_TRAVERSE_56CM",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17d7c",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "639875daee23a8f220a71ec1"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:53:46.201Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9237a",
+    "object_id": "5850450100",
+    "sap_code": "5850450100",
+    "sis_code": "RMMRF-COM-TRAV-5850450100",
+    "material_name": "COMPRESSOR_TRAVERSE",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17d7e",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63987624ee23a8f220a71ec7"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:55:00.669Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92388",
+    "object_id": "5859160200",
+    "sis_code": "RMMRF-5859160200-LDBC-VCM",
+    "material_name": "BOTTOM_DOOR_BOTTOM_CAP_56CM_VCM_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2108",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92390",
+    "object_id": "5849990100",
+    "sap_code": "5849990100",
+    "sis_code": "RMMRF-5849990100-D-RACK50",
+    "material_name": "DOOR_RACK_FF_50MM_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.2079,
+        "_id": "63987c84ee23a8f220a71eef"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.0021,
+        "_id": "63987c84ee23a8f220a71ef0"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:22:12.160Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92397",
+    "object_id": "5852010100",
+    "sap_code": "5852010100",
+    "sis_code": "RMMRF-PLS-NUT-5852010100",
+    "material_name": "PLASTIC_NUT",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de1",
+        "model_type": "RM",
+        "quantity": 0.0022,
+        "_id": "639965ffee23a8f220a74be7"
+      }
+    ],
+    "updatedAt": "2022-12-14T05:58:23.591Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923bb",
+    "object_id": "5861350100",
+    "sap_code": "5861350100",
+    "sis_code": "RMMRF-5861350100-AMT-SPCR",
+    "material_name": "AMT Spacer",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.0025,
+        "_id": "63994338ee23a8f220a73c3c"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:30:00.033Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923bc",
+    "object_id": "5860740100",
+    "sap_code": "5860740100",
+    "sis_code": "RMMRF-5860740100-FRZ-GLSS",
+    "material_name": "GLASS_SHELF_BACK_PROFILE_FRZ_51CM_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd7",
+        "model_type": "RM",
+        "quantity": 0.0325,
+        "_id": "63996c16ee23a8f220a7564a"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:24:22.069Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c2",
+    "object_id": "5860640100",
+    "sap_code": "5860640100",
+    "sis_code": "RMMRF-5860640100-UDTC-51",
+    "material_name": "UPPER_DOOR_TOP_CAP_51CM_GD",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.103,
+        "_id": "6399970eee23a8f220a75c00"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:27:42.768Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c5",
+    "object_id": "5860650200",
+    "sap_code": "5860650200",
+    "sis_code": "RMMRF-5860650200-UDBC-51",
+    "material_name": "BOTTOM_DOOR_BOTTOM_CAP_51CM_GD",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.111,
+        "_id": "6399974bee23a8f220a75c12"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:28:43.390Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c8",
+    "object_id": "5861190100",
+    "sap_code": "5861190100",
+    "sis_code": "RMMRF-5861190100-THRM-BOX",
+    "material_name": "TERMOSTAT_BOX",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd7",
+        "model_type": "RM",
+        "quantity": 0.067,
+        "_id": "63996c4aee23a8f220a75656"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:25:14.849Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e0",
+    "object_id": "5861170100",
+    "sap_code": "5861170100",
+    "sis_code": "RMMRF-5861170100-BTTM-PNL",
+    "material_name": "D51CM_BOTTOM_PANEL",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c19323c71893f36751cf",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dab",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63987490ee23a8f220a71eb2"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:48:16.980Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e8",
+    "object_id": "5860870100",
+    "sap_code": "5860870100",
+    "sis_code": "RMMRF-5860870100-BDRWR-51",
+    "material_name": "BASE_DRAWER_51CM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1c023c71893f36751dd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 1.02335,
+        "_id": "63996326ee23a8f220a746c2"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de8",
+        "model_type": "RM",
+        "quantity": 0.03165,
+        "_id": "63996326ee23a8f220a746c3"
+      }
+    ],
+    "updatedAt": "2022-12-14T05:46:14.569Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923eb",
+    "object_id": "5870880100",
+    "sap_code": "5870880100",
+    "sis_code": "RMMRF-5870880100-STEELSUP",
+    "material_name": "DOOR STEEL SUPPORT",
+    "source_category": "6395ad24dd62aaa6a3b58710",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2114",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9240b",
+    "object_id": "6108550100",
+    "sap_code": "6108550100",
+    "sis_code": "RMSFG-6108550100",
+    "material_name": "MIDDLE_TRAVERSE_51CM_WithLock (clinched)",
+    "source_category": "6395ad99dd62aaa6a3b5871e",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2115",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92413",
+    "object_id": "7000200273",
+    "sap_code": "7000200273",
+    "sis_code": "RMSFG-7000200273",
+    "material_name": "Side Sheet (Right)-273",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2116",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9241b",
+    "object_id": "2000000198",
+    "sap_code": "2000000198",
+    "sis_code": "RMSFG-2000000198",
+    "material_name": "Foamed Empty Body_198R",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2117",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92427",
+    "object_id": "3100256230",
+    "sap_code": "3100256230",
+    "sis_code": "RMSFG-3100256230",
+    "material_name": "Foamed Glass Door FF_D56",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2118",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92429",
+    "object_id": "3110256260",
+    "sap_code": "3110256260",
+    "sis_code": "RMSFG-3110256260",
+    "material_name": "Foamed Glass Door FF_K56",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2119",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9242b",
+    "object_id": "3100200198",
+    "sap_code": "3100200198",
+    "sis_code": "RMSFG-3100200198",
+    "material_name": "Foamed Glass Door FF_198R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d211a",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9242d",
+    "object_id": "3100200208",
+    "sap_code": "3100200208",
+    "sis_code": "RMSFG-3100200208",
+    "material_name": "Foamed Glass Door FF_208R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d211b",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92436",
+    "object_id": "5860950100",
+    "sap_code": "5860950100",
+    "sis_code": "RMSFG-5860950100",
+    "material_name": "Door Liner (Normal)-D51185",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d211c",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9243d",
+    "object_id": "5660200208",
+    "sap_code": "5660200208",
+    "sis_code": "RMSFG-5660200208",
+    "material_name": "Door Liner (Deep)-208R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d211d",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9243f",
+    "object_id": "5660200247",
+    "sap_code": "5660200247",
+    "sis_code": "RMSFG-5660200247",
+    "material_name": "Door Liner (Deep)-243R, 273R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d211e",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92440",
+    "object_id": "5660100243",
+    "sap_code": "5660100243",
+    "sis_code": "RMSFG-5660100243",
+    "material_name": "Door Liner (Normal)-243R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d211f",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92456",
+    "object_id": "6129040100",
+    "sap_code": "6129040100",
+    "sis_code": "RMSFG-6129040100",
+    "material_name": "EVERFRESH_TOP_D56 (hot stamped)",
+    "source_category": "6395adf0d6329a1880356fb9",
+    "sfg_category": "6395c1b523c71893f36751d9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2120",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92458",
+    "object_id": "5852150101",
+    "sap_code": "5852150101",
+    "sis_code": "RMSFG-5852150101",
+    "material_name": "LTC_BUTTON (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2121",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9245d",
+    "object_id": "6127910100",
+    "sap_code": "6127910100",
+    "sis_code": "RMSFG-6127910100",
+    "material_name": "DOOR_RACK_FF_50MM_BANG (printed+hot stamped)",
+    "source_category": "6395adf0d6329a1880356fb9",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2122",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9237b",
+    "object_id": "6100210100",
+    "sap_code": "6100210100",
+    "sis_code": "RMMRF-GASKETFF-6100210100",
+    "material_name": "GASKET_FF_D56230",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de6",
+        "model_type": "RM",
+        "quantity": 0.257,
+        "_id": "63999376ee23a8f220a75bb4"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de7",
+        "model_type": "RM",
+        "quantity": 0.152,
+        "_id": "63999376ee23a8f220a75bb5"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:12:22.701Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9237c",
+    "object_id": "6100210200",
+    "sap_code": "6100210200",
+    "sis_code": "RMMRF-GASKETFZ-6100210200",
+    "material_name": "GASKET_FRZ_D56230",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de6",
+        "model_type": "RM",
+        "quantity": 0.229,
+        "_id": "639993b0ee23a8f220a75bbd"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de7",
+        "model_type": "RM",
+        "quantity": 0.134,
+        "_id": "639993b0ee23a8f220a75bbe"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:13:20.160Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9238b",
+    "object_id": "5852140100",
+    "sap_code": "5852140100",
+    "sis_code": "RMMRF-5852140100-LTC-L-CP",
+    "material_name": "LTC_LED_CAP",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.024,
+        "_id": "63987f3aee23a8f220a71f29"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:33:46.501Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92392",
+    "object_id": "5851240100",
+    "sap_code": "5851240100",
+    "sis_code": "RMMRF-K56-FRZ-5851240100",
+    "material_name": "K56_FRZ_DRAWER_BODY_200MM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 0.55484,
+        "_id": "63994db0ee23a8f220a7417e"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17ddd",
+        "model_type": "RM",
+        "quantity": 0.01716,
+        "_id": "63994db0ee23a8f220a7417f"
+      }
+    ],
+    "updatedAt": "2022-12-14T04:14:40.955Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92399",
+    "object_id": "5851630100",
+    "sap_code": "5851630100",
+    "sis_code": "RMMRF-T-HNG-C-5851630100",
+    "material_name": "TOP_HINGE_COVER_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.025,
+        "_id": "63996cfaee23a8f220a75668"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:28:10.467Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9239b",
+    "object_id": "5851350100",
+    "sap_code": "5851350100",
+    "sis_code": "RMMRF-GLS-PRF-5851350100",
+    "material_name": "GLASS_SHELF_BACK_PROFILE_FRZ_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd7",
+        "model_type": "RM",
+        "quantity": 0.039,
+        "_id": "63996c01ee23a8f220a75644"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:24:01.055Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a0",
+    "object_id": "5851270100",
+    "sap_code": "5851270100",
+    "sis_code": "RMMRF-5851270100-EFSH-B-D",
+    "material_name": "EVERFRESH_BOTTOM_D56",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b523c71893f36751d9",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd7",
+        "model_type": "RM",
+        "quantity": 0.312,
+        "_id": "63997064ee23a8f220a75687"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17d53",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63997064ee23a8f220a75688"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:42:44.592Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a1",
+    "object_id": "5852120100",
+    "sap_code": "5852120100",
+    "sis_code": "RMMRF-5852120100-BLU-I-CV",
+    "material_name": "HARVEST_FRESH_GLASS_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.023,
+        "_id": "63987d78ee23a8f220a71f03"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:26:16.836Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a2",
+    "object_id": "5848810100",
+    "sap_code": "5848810100",
+    "sis_code": "RMMRF-ICE-TRY-5848810100",
+    "material_name": "ICE_TRAY_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.17072,
+        "_id": "639883abee23a8f220a71f75"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17ddc",
+        "model_type": "RM",
+        "quantity": 0.00528,
+        "_id": "639883abee23a8f220a71f76"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:52:43.011Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a3",
+    "object_id": "5852310100",
+    "sap_code": "5852310100",
+    "sis_code": "RMMRF-5852310100-CM-BK-CV",
+    "material_name": "COMP_BACK_COVER_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.19964,
+        "_id": "63993f9dee23a8f220a73bfe"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dd9",
+        "model_type": "RM",
+        "quantity": 0.01936,
+        "_id": "63993f9dee23a8f220a73bff"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:14:37.377Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923af",
+    "object_id": "5862521000",
+    "sap_code": "5862521000",
+    "sis_code": "RMMRF-5862521000-DYKE-D56",
+    "material_name": "D56_FRZ_DYKE_SUP",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.015,
+        "_id": "63994197ee23a8f220a73c18"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:23:03.948Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c0",
+    "object_id": "5861100100",
+    "sap_code": "5861100100",
+    "sis_code": "RMMF-5861100100-DRWR-200F",
+    "material_name": "FRZ_DRAWER_200MM_FRONT",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2134",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c1",
+    "object_id": "5861090100",
+    "sap_code": "5861090100",
+    "sis_code": "RMMF-5861090100-DRWR-200B",
+    "material_name": "FRZ_DRAWER_200MM_BACK",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2135",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923cb",
+    "object_id": "5875520900",
+    "sap_code": "5875520900",
+    "material_name": "INNER_LINER_SHEET 1690x 680 x 3.8_D51200",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2136",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923cc",
+    "object_id": "5875521300",
+    "sap_code": "5875521300",
+    "material_name": "INNER_LINER_SHEET 1635 x 680 x 3.8_K51185",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2137",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ce",
+    "object_id": "5875520700",
+    "sap_code": "5875520700",
+    "sis_code": "RMMRF-DOORLINER51185-SEET",
+    "material_name": "DOOR LINER SHEET 1518 x 666 x 1.3",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0552,
+        "_id": "63986c69ee23a8f220a71619"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 1.2834,
+        "_id": "63986c69ee23a8f220a7161a"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0414,
+        "_id": "63986c69ee23a8f220a7161b"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:13:29.139Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d3",
+    "object_id": "6100210700",
+    "sap_code": "6100210700",
+    "sis_code": "RMMRF-6100210700-GSKT-FF",
+    "material_name": "GASKET_FF_D51185",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de6",
+        "model_type": "RM",
+        "quantity": 0.268,
+        "_id": "639994c8ee23a8f220a75be6"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de7",
+        "model_type": "RM",
+        "quantity": 0.148,
+        "_id": "639994c8ee23a8f220a75be7"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:18:00.736Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d5",
+    "object_id": "6100210900",
+    "sap_code": "6100210900",
+    "sis_code": "RMMRF-GST-GRAY-FF-D51200",
+    "material_name": "GASKET_GR_LIGHT_GRAY_FF_D51200",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d213d",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d7",
+    "object_id": "6100211100",
+    "sap_code": "6100211100",
+    "sis_code": "RMMRF-GST-GRAY-FF-K51185",
+    "material_name": "GASKET_GR_LIGHT_GRAY_FF_K51185",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d213e",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923db",
+    "object_id": "5860800100",
+    "sap_code": "5860800100",
+    "sis_code": "RMMRF-5860800100-COMP-TRV",
+    "material_name": "COMPRESSOR_TRAVERSE_51CM",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63987444ee23a8f220a71eac"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:47:00.587Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923dd",
+    "object_id": "5860810400",
+    "sap_code": "5860810400",
+    "sis_code": "RMMRF-5860810400-S-BCK185",
+    "material_name": "STEEL_BACKWALL_D51185",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17da8",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "6398758eee23a8f220a71ebe"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:52:30.246Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923de",
+    "object_id": "5860810600",
+    "sap_code": "5860810600",
+    "sis_code": "RMMRF-5860810600-S-BCK200",
+    "material_name": "STEEL_BACKWALL_D51200",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17da9",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63987506ee23a8f220a71eb8"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:50:14.949Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923df",
+    "object_id": "5860820200",
+    "sap_code": "5860820200",
+    "material_name": "STEEL_BACKWALL_K51185",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2142",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e1",
+    "object_id": "5860790100",
+    "sap_code": "5860790100",
+    "sis_code": "RMMRF-5860790100-COM-BCOV",
+    "material_name": "COMP_BACK_COVER_51CM",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "6398745fee23a8f220a71eaf"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:47:27.787Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ec",
+    "object_id": "5860960100",
+    "sap_code": "5860960100",
+    "sis_code": "RMSFG-5860960100",
+    "material_name": "Body Liner (Deep)-D51185",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2144",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f0",
+    "object_id": "5769110200",
+    "sap_code": "5769110200",
+    "sis_code": "RMSFG-5769110200",
+    "material_name": "Body Liner (Normal)-DV3",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2145",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f8",
+    "object_id": "5770200247",
+    "sap_code": "5770200247",
+    "sis_code": "RMSFG-5770200247",
+    "material_name": "Body Liner (Deep)-243R, 273R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2146",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92400",
+    "object_id": "5984320100",
+    "sap_code": "5984320100",
+    "sis_code": "RMSFG-5984320100",
+    "material_name": "FLANGE_HEATER_PIPE_ASSM_D56230",
+    "source_category": "6395ad7cdd62aaa6a3b5871a",
+    "sfg_category": "6395c1c923c71893f36751e1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2147",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92402",
+    "object_id": "6108810100",
+    "sap_code": "6108810100",
+    "sis_code": "RMSFG-6108810100",
+    "material_name": "FLANGE_HEATER_PIPE_ASSM_D51185",
+    "source_category": "6395ad7cdd62aaa6a3b5871a",
+    "sfg_category": "6395c1c923c71893f36751e1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2148",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92403",
+    "object_id": "5984840100",
+    "sap_code": "5984840100",
+    "sis_code": "RMSFG-5984840100",
+    "material_name": "PANEL_HEATER_PIPE_GR_D56230",
+    "source_category": "6395ad7cdd62aaa6a3b5871a",
+    "sfg_category": "6395c1c923c71893f36751e1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2149",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9240a",
+    "object_id": "6108990100",
+    "sap_code": "6108990100",
+    "sis_code": "RMSFG-6108990100",
+    "material_name": "D51CM_BOTTOM_PANEL (clinched)",
+    "source_category": "6395ad99dd62aaa6a3b5871e",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d214a",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92418",
+    "object_id": "8000000243",
+    "sap_code": "8000000243",
+    "sis_code": "RMSFG-8000000243",
+    "material_name": "Back Sheet-243",
+    "source_category": "6395adaddd62aaa6a3b58722",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d214b",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9241c",
+    "object_id": "2000000208",
+    "sap_code": "2000000208",
+    "sis_code": "RMSFG-2000000208",
+    "material_name": "Foamed Empty Body_208R",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d214c",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92422",
+    "object_id": "2001056230",
+    "sap_code": "2001056230",
+    "sis_code": "RMSFG-2001056230",
+    "material_name": "Foamed Empty Body_DV3",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d214d",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92432",
+    "object_id": "3100300273",
+    "sap_code": "3100300273",
+    "sis_code": "RMSFG-3100300273",
+    "material_name": "Foamed Glass Door FRZ_273R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d214e",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92434",
+    "object_id": "3400200333",
+    "sap_code": "3400200333",
+    "sis_code": "RMSFG-3400200333",
+    "material_name": "Foamed Glass Door FRZ_333R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d214f",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92451",
+    "object_id": "6116990200",
+    "sap_code": "6116990200",
+    "sis_code": "RMSFG-6116990200",
+    "material_name": "CRISPER_BODY_K56260 (Crisper)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2150",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92464",
+    "object_id": "5861200101",
+    "sap_code": "5861200101",
+    "sis_code": "RMSFG-5861200101",
+    "material_name": "THERMOSTAT_KNOB (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2151",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92377",
+    "object_id": "BODY LINER K56",
+    "sap_code": "5855221600",
+    "sis_code": "RMMRF-5769050000-B-LNRK56",
+    "material_name": "BODY LINER K56",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.2092,
+        "_id": "63986ae5ee23a8f220a7160d"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 4.8639,
+        "_id": "63986ae5ee23a8f220a7160e"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0785,
+        "_id": "63986ae5ee23a8f220a7160f"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de3",
+        "model_type": "RM",
+        "quantity": 0.0785,
+        "_id": "63986ae5ee23a8f220a71610"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:07:01.085Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92382",
+    "object_id": "5827330100",
+    "sap_code": "5827330100",
+    "sis_code": "RMMRF-U-D-B-C-5827330100",
+    "material_name": "UPPER_DOOR_BOTTOM_CAP_56CM_GD_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.173,
+        "_id": "639995e7ee23a8f220a75bee"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:22:47.764Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92384",
+    "object_id": "5827310100",
+    "sap_code": "5827310100",
+    "sis_code": "RMMRF-L-D-T-C-5827310100",
+    "material_name": "LOWER_DOOR_TOP_CAP_56CM_GD_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.135,
+        "_id": "63999604ee23a8f220a75bf4"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:23:16.956Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92385",
+    "object_id": "5859150100",
+    "sis_code": "RMMRF-5859150100-UDTC-VCM",
+    "material_name": "UPPER_DOOR_TOP_CAP_56CM_VCM_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2158",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9238e",
+    "object_id": "5850180100",
+    "sap_code": "5850180100",
+    "sis_code": "RMMRF-CRS-K56-5850180100",
+    "material_name": "CRISPER_BODY_K56250",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.99495,
+        "_id": "63987d16ee23a8f220a71efe"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.01005,
+        "_id": "63987d16ee23a8f220a71eff"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:24:38.498Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9238f",
+    "object_id": "5849980100",
+    "sap_code": "5849980100",
+    "sis_code": "RMMRF-5849980100-D-RACK55",
+    "material_name": "DOOR_RACK_FF_55MM_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.17028,
+        "_id": "63987c25ee23a8f220a71eea"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.00172,
+        "_id": "63987c25ee23a8f220a71eeb"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:20:37.457Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a5",
+    "object_id": "5852180100",
+    "sap_code": "5852180100",
+    "sis_code": "RMMRF-5852180100-FLTR-CVR",
+    "material_name": "FILTER_COVER",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 0.01164,
+        "_id": "63994ae8ee23a8f220a74175"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17ddd",
+        "model_type": "RM",
+        "quantity": 0.00036,
+        "_id": "63994ae8ee23a8f220a74176"
+      }
+    ],
+    "updatedAt": "2022-12-14T04:02:48.465Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ad",
+    "object_id": "5769160400",
+    "sap_code": "5769160400",
+    "sis_code": "RMMRF-5769160400-ST-BW-KC",
+    "material_name": "STEEL_BACKWALL_K56260_U_1_CARD",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17d7b",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63987648ee23a8f220a71eca"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:55:36.451Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923be",
+    "object_id": "5861080100",
+    "sap_code": "5861080100",
+    "sis_code": "RMMF-5861080100-DRWR-175F",
+    "material_name": "FRZ_DRAWER_175MM_FRONT",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2160",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923cf",
+    "object_id": "5875521100",
+    "sap_code": "5875521100",
+    "material_name": "DOOR LINER SHEET 1638x 666 x 1.3_D51200",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2161",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d2",
+    "object_id": "6100210600",
+    "sap_code": "6100210600",
+    "sis_code": "RMMRF-GRAY-FRZ-D51155",
+    "material_name": "GASKET_GR_LIGHT_GRAY_FRZ_D51155",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2162",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d4",
+    "object_id": "6100210800",
+    "sap_code": "6100210800",
+    "sis_code": "RMMRF-6100210800-GSKT-FRZ",
+    "material_name": "GASKET_FRZ_D51185",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de6",
+        "model_type": "RM",
+        "quantity": 0.242,
+        "_id": "6399944aee23a8f220a75bd8"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de7",
+        "model_type": "RM",
+        "quantity": 0.134,
+        "_id": "6399944aee23a8f220a75bd9"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:15:54.369Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d9",
+    "object_id": "5860780100",
+    "sap_code": "5860780100",
+    "sis_code": "RMMRF-5860780100-BTTM-TRV",
+    "material_name": "BOTTOM_TRAVERSE_51CM",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dae",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "639872aeee23a8f220a71ea0"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:40:14.682Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e2",
+    "object_id": "5860840100",
+    "sap_code": "5860840100",
+    "sis_code": "RMMRF-5860840100-C-DRWR51",
+    "material_name": "CRISPER_DRAWER_D51",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.84645,
+        "_id": "6398804eee23a8f220a71f3f"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.00855,
+        "_id": "6398804eee23a8f220a71f40"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:38:22.241Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e4",
+    "object_id": "5860730100",
+    "sap_code": "5860730100",
+    "sis_code": "RMMRF-5860730100-D-RACK55",
+    "material_name": "DOOR_RACK_FF_51CM_55MM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.1386,
+        "_id": "639880e2ee23a8f220a71f51"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.0014,
+        "_id": "639880e2ee23a8f220a71f52"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:40:50.052Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e5",
+    "object_id": "5860710100",
+    "sap_code": "5860710100",
+    "sis_code": "RMMRF-5860710100-D-RACK50",
+    "material_name": "DOOR_RACK_FF_51CM_50MM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.16137,
+        "_id": "63988095ee23a8f220a71f48"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.00163,
+        "_id": "63988095ee23a8f220a71f49"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:39:33.798Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e7",
+    "object_id": "5860860100",
+    "sap_code": "5860860100",
+    "sis_code": "RMMRF-5860860100-BSTND-51",
+    "material_name": "BASE_STAND_51CM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1c023c71893f36751dd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 1.56655,
+        "_id": "63996291ee23a8f220a746b9"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de8",
+        "model_type": "RM",
+        "quantity": 0.04845,
+        "_id": "63996291ee23a8f220a746ba"
+      }
+    ],
+    "updatedAt": "2022-12-14T05:43:45.084Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923fb",
+    "object_id": "5770200333",
+    "sap_code": "5770200333",
+    "sis_code": "RMSFG-5770200333",
+    "material_name": "Body Liner (Deep)-333R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d216e",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923fe",
+    "object_id": "5985840100",
+    "sap_code": "5985840100",
+    "sis_code": "RMSFG-5985840100",
+    "material_name": "Eva Wrapped FRZ-K56260",
+    "source_category": "6395ad72dd62aaa6a3b58718",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d216f",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92408",
+    "object_id": "5833170600",
+    "sap_code": "5833170600",
+    "sis_code": "RMSFG-5833170600",
+    "material_name": "U-Shell_D51185",
+    "source_category": "6395ad8fdd62aaa6a3b5871c",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2170",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9241f",
+    "object_id": "2000000333",
+    "sap_code": "2000000333",
+    "sis_code": "RMSFG-2000000333",
+    "material_name": "Foamed Empty Body_333R",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2171",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92425",
+    "object_id": "3100251185",
+    "sap_code": "3100251185",
+    "sis_code": "RMSFG-3100251185",
+    "material_name": "Foamed Glass Door FF_D51185",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2172",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9242c",
+    "object_id": "3100300198",
+    "sap_code": "3100300198",
+    "sis_code": "RMSFG-3100300198",
+    "material_name": "Foamed Glass Door FRZ_198R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2173",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92431",
+    "object_id": "3100200273",
+    "sap_code": "3100200273",
+    "sis_code": "RMSFG-3100200273",
+    "material_name": "Foamed Glass Door FF_273R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2174",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92433",
+    "object_id": "3400300333",
+    "sap_code": "3400300333",
+    "sis_code": "RMSFG-3400300333",
+    "material_name": "Foamed Glass Door FF_333R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2175",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92435",
+    "object_id": "5860940100",
+    "sap_code": "5860940100",
+    "sis_code": "RMSFG-5860940100",
+    "material_name": "Door Liner (Deep)-D51185",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2176",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92453",
+    "object_id": "6116990100",
+    "sap_code": "6116990100",
+    "sis_code": "RMSFG-6116990100",
+    "material_name": "CRISPER_BODY_K56260 (Nutrilock)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2177",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9245c",
+    "object_id": "6117050100",
+    "sap_code": "6117050100",
+    "sis_code": "RMSFG-6117050100",
+    "material_name": "DOOR_RACK_FF_100MM_56CM_BANG (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2178",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92463",
+    "object_id": "5861590100",
+    "sap_code": "5861590100",
+    "sis_code": "RMSFG-5861590100",
+    "material_name": "DOOR_RACK_FF_51CM_100MM (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2179",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92381",
+    "object_id": "5827290100",
+    "sap_code": "5827290100",
+    "sis_code": "RMMRF-U-D-T-C-5827290100",
+    "material_name": "UPPER_DOOR_TOP_CAP_56CM_GD_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.0161,
+        "_id": "63996d20ee23a8f220a7566e"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:28:48.669Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92387",
+    "object_id": "5859170100",
+    "sis_code": "RMMRF-5859170100-LDTC-VCM",
+    "material_name": "LOWER_DOOR_TOP_CAP_56CM_VCM_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d217b",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9238a",
+    "object_id": "5852110100",
+    "sap_code": "5852110100",
+    "sis_code": "RMMRF-5852110100-EVPRN-TR",
+    "material_name": "EVAPORATION_TRAY_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.16192,
+        "_id": "63993e9bee23a8f220a73bec"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dd9",
+        "model_type": "RM",
+        "quantity": 0.01408,
+        "_id": "63993e9bee23a8f220a73bed"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:10:19.318Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9239c",
+    "object_id": "5850880100",
+    "sap_code": "5850880100",
+    "sis_code": "RMMRF-GLS-PRF-5850880100",
+    "material_name": "GLASS_SHELF_BACK_PROFILE_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd7",
+        "model_type": "RM",
+        "quantity": 0.0405,
+        "_id": "63996b9eee23a8f220a7563e"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:22:22.175Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a8",
+    "object_id": "5851690100",
+    "sap_code": "5851690100",
+    "sis_code": "RMMRF-5851690100-EFSH-T-K",
+    "material_name": "EVERFRESH_TOP_K56",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b523c71893f36751d9",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd7",
+        "model_type": "RM",
+        "quantity": 0.16,
+        "_id": "639966bcee23a8f220a74bed"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:01:32.132Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923aa",
+    "object_id": "5769160100",
+    "sap_code": "5769160100",
+    "sis_code": "RMMRF-5769160100-ST-BW-D",
+    "material_name": "STEEL_BACKWALL_D56230",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17d7a",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "6398771dee23a8f220a71ed3"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:59:09.594Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ae",
+    "object_id": "5851990100",
+    "sap_code": "5851990100",
+    "sis_code": "RMMRF-5851990100-T-HLDR",
+    "material_name": "TUBE HOLDER_40MM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.004,
+        "_id": "639883ecee23a8f220a71f7d"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:53:48.276Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b2",
+    "object_id": "5862540100",
+    "sap_code": "5862540100",
+    "sis_code": "RMMRF-5862540100-DYKE-K56",
+    "material_name": "K56_BOTTOM_DYKE_SUP_LEFT",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.008,
+        "_id": "63994295ee23a8f220a73c2a"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:27:17.269Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b8",
+    "object_id": "5861160100",
+    "sap_code": "5861160100",
+    "sis_code": "RMMRF-5861160100-SP-SUP51",
+    "material_name": "51CM_SIDE_PANEL_SUPPORT_RHS",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dea",
+        "model_type": "RM",
+        "quantity": 0.148,
+        "_id": "639945bbee23a8f220a73c48"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:40:43.812Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b9",
+    "object_id": "5861160200",
+    "sap_code": "5861160200",
+    "sis_code": "RMMRF-5861160200-P-SUP-51",
+    "material_name": "51CM_SIDE_PANEL_SUPPORT_LHS",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dea",
+        "model_type": "RM",
+        "quantity": 0.148,
+        "_id": "639945daee23a8f220a73c4e"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:41:14.360Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ba",
+    "object_id": "5861310100",
+    "sap_code": "5861310100",
+    "sis_code": "RMMRF-5861310100-B-S-HOUS",
+    "material_name": "HOUSING_FOR_BASE_STAND",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dea",
+        "model_type": "RM",
+        "quantity": 0.002,
+        "_id": "6399458bee23a8f220a73c42"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:39:55.664Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c6",
+    "object_id": "5861200100",
+    "sap_code": "5861200100",
+    "sis_code": "RMMRF-5861200100-THR-KNOB",
+    "material_name": "THERMOSTAT_KNOB",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 0.01067,
+        "_id": "63994f87ee23a8f220a7419a"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17ddd",
+        "model_type": "RM",
+        "quantity": 0.00033,
+        "_id": "63994f87ee23a8f220a7419b"
+      }
+    ],
+    "updatedAt": "2022-12-14T04:22:31.815Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923da",
+    "object_id": "5860770100",
+    "sap_code": "5860770100",
+    "sis_code": "RMMRF-5860770100-MDDL-TRV",
+    "material_name": "MIDDLE_TRAVERSE_51CM_WithLock  ",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c19323c71893f36751cf",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dab",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "639874d3ee23a8f220a71eb5"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:49:23.250Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e9",
+    "object_id": "5860700100",
+    "sap_code": "5860700100",
+    "sis_code": "RMMRF-5860700100-B-S-S-51",
+    "material_name": "BASE_STAND_SEPARATOR_51CM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1c023c71893f36751dd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 0.07372,
+        "_id": "63996421ee23a8f220a74bdf"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de8",
+        "model_type": "RM",
+        "quantity": 0.00228,
+        "_id": "63996421ee23a8f220a74be0"
+      }
+    ],
+    "updatedAt": "2022-12-14T05:50:25.845Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f5",
+    "object_id": "5770100198",
+    "sap_code": "5770100198",
+    "sis_code": "RMSFG-5770100198",
+    "material_name": "Body Liner (Normal)-198R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d218b",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9240c",
+    "object_id": "7000100198",
+    "sap_code": "7000100198",
+    "sis_code": "RMSFG-7000100198",
+    "material_name": "Side Sheet (Left)-198",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d218c",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9240e",
+    "object_id": "7000100208",
+    "sap_code": "7000100208",
+    "sis_code": "RMSFG-7000100208",
+    "material_name": "Side Sheet (Left)-208",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d218d",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92420",
+    "object_id": "2000051185",
+    "sap_code": "2000051185",
+    "sis_code": "RMSFG-2000051185",
+    "material_name": "Foamed Empty Body_D51185",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d218e",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9242a",
+    "object_id": "3110356260",
+    "sap_code": "3110356260",
+    "sis_code": "RMSFG-3110356260",
+    "material_name": "Foamed Glass Door FRZ_K56",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d218f",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92438",
+    "object_id": "5769130100",
+    "sap_code": "5769130100",
+    "sis_code": "RMSFG-5769130100",
+    "material_name": "Door Liner (Normal)-D56",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2190",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92439",
+    "object_id": "5769080100",
+    "sap_code": "5769080100",
+    "sis_code": "RMSFG-5769080100",
+    "material_name": "Door Liner (Deep)-K56",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2191",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9243b",
+    "object_id": "5660200198",
+    "sap_code": "5660200198",
+    "sis_code": "RMSFG-5660200198",
+    "material_name": "Door Liner (Deep)-198R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2192",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92442",
+    "object_id": "5660200333",
+    "sap_code": "5660200333",
+    "sis_code": "RMSFG-5660200333",
+    "material_name": "Door Liner (Deep)-333R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2193",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92443",
+    "object_id": "5660100333",
+    "sap_code": "5660100333",
+    "sis_code": "RMSFG-5660100333",
+    "material_name": "Door Liner (Normal)-333R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2194",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92445",
+    "object_id": "4100056230",
+    "sap_code": "4100056230",
+    "sis_code": "RMSFG-4100056230",
+    "material_name": "Door Fitted Body_DV2",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2195",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9244f",
+    "object_id": "6129030100",
+    "sap_code": "6129030100",
+    "sis_code": "RMSFG-6129030100",
+    "material_name": "CRISPER_DRAWER_BODY_D56230 (Nutrilock & Hot Stamped)",
+    "source_category": "6395adf0d6329a1880356fb9",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2196",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92450",
+    "object_id": "6116980100",
+    "sap_code": "6116980100",
+    "sis_code": "RMSFG-6116980100",
+    "material_name": "CRISPER_DRAWER_BODY_D56230 (Nutrilock)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2197",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92457",
+    "object_id": "6117020100",
+    "sap_code": "6117020100",
+    "sis_code": "RMSFG-6117020100",
+    "material_name": "EVERFRESH_BOTTOM_D56 (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b523c71893f36751d9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2198",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9245a",
+    "object_id": "6117040100",
+    "sap_code": "6117040100",
+    "sis_code": "RMSFG-6117040100",
+    "material_name": "DOOR_RACK_FF_50MM_BANG (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2199",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9245f",
+    "object_id": "6117010100",
+    "sap_code": "6117010100",
+    "sis_code": "RMSFG-6117010100",
+    "material_name": "K56_FRZ_DRW_CAP_200MM (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d219a",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9237d",
+    "object_id": "6100210300",
+    "sap_code": "6100210300",
+    "sis_code": "RMMRF-GRAY-FF-6100210300",
+    "material_name": "GASKET_FF_K56260   ",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de6",
+        "model_type": "RM",
+        "quantity": 0.267,
+        "_id": "639993d4ee23a8f220a75bc6"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de7",
+        "model_type": "RM",
+        "quantity": 0.152,
+        "_id": "639993d4ee23a8f220a75bc7"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:13:56.341Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9237e",
+    "object_id": "6100210400",
+    "sap_code": "6100210400",
+    "sis_code": "RMMRF-GRAY-FRZ-6100210400",
+    "material_name": "GASKET_FRZ_K56260   ",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de6",
+        "model_type": "RM",
+        "quantity": 0.272,
+        "_id": "639993fdee23a8f220a75bcf"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de7",
+        "model_type": "RM",
+        "quantity": 0.156,
+        "_id": "639993fdee23a8f220a75bd0"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:14:37.680Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92394",
+    "object_id": "5851250100",
+    "sap_code": "5851250100",
+    "sis_code": "RMMRF-FRZ-K56-5851250100",
+    "material_name": "DRAWER_BODY_FRZ_145MM_K56_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 0.67221,
+        "_id": "63994f0dee23a8f220a74188"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17ddd",
+        "model_type": "RM",
+        "quantity": 0.02079,
+        "_id": "63994f0dee23a8f220a74189"
+      }
+    ],
+    "updatedAt": "2022-12-14T04:20:29.011Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92398",
+    "object_id": "5853570100",
+    "sap_code": "5853570100",
+    "sis_code": "RMMRF-DRN-ADP-5853570100",
+    "material_name": "WATER_DRAIN_ADAPTER_FF",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.012,
+        "_id": "63993ffeee23a8f220a73c06"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:16:14.034Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9239d",
+    "object_id": "5852220100",
+    "sap_code": "5852220100",
+    "sis_code": "RMMRF-ICE-TRY-5852220100",
+    "material_name": "ICE_CUBE_TRAY",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.02221,
+        "_id": "63993f17ee23a8f220a73bf5"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17ddc",
+        "model_type": "RM",
+        "quantity": 0.00069,
+        "_id": "63993f17ee23a8f220a73bf6"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:12:23.321Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a6",
+    "object_id": "5850440100",
+    "sap_code": "5850440100",
+    "sis_code": "RMMRF-5850440100-B-STD-S",
+    "material_name": "BASE_STAND_SEPARATOR_56CM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1c023c71893f36751dd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 0.0776,
+        "_id": "639961f9ee23a8f220a746ab"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de8",
+        "model_type": "RM",
+        "quantity": 0.0024,
+        "_id": "639961f9ee23a8f220a746ac"
+      }
+    ],
+    "updatedAt": "2022-12-14T05:41:13.631Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a9",
+    "object_id": "5851700100",
+    "sap_code": "5851700100",
+    "sis_code": "RMMRF-5851700100-EFSH-B-K",
+    "material_name": "EVERFRESH_BOTTOM_K56",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b523c71893f36751d9",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd7",
+        "model_type": "RM",
+        "quantity": 0.043,
+        "_id": "63997038ee23a8f220a7567e"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17d54",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63997038ee23a8f220a7567f"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:42:00.809Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ab",
+    "object_id": "5769160200",
+    "sap_code": "5769160200",
+    "sis_code": "RMMRF-5769160200-ST-BW-DC",
+    "material_name": "STEEL_BACKWALL_D56230_U_1_CARD",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17d7a",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "639876ebee23a8f220a71ed0"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:58:19.649Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b0",
+    "object_id": "5862530100",
+    "sap_code": "5862530100",
+    "sis_code": "RMMRF-5862530100-DYKE-K56",
+    "material_name": "K56_FRZ_UPPER_DYKE_SUP_LEFT",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.0065,
+        "_id": "639941c9ee23a8f220a73c1e"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:23:53.676Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b1",
+    "object_id": "5862530200",
+    "sap_code": "5862530200",
+    "sis_code": "RMMRF-5862530200-DYKE-K56",
+    "material_name": "K56_FRZ_UPPER_DYKE_SUP_RIGHT",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.0065,
+        "_id": "639941efee23a8f220a73c24"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:24:31.457Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c4",
+    "object_id": "5860660100",
+    "sap_code": "5860660100",
+    "sis_code": "RMMRF-5860660100-LDTC-51",
+    "material_name": "LOWER_DOOR_TOP_CAP_51CM_GD_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.106,
+        "_id": "63999737ee23a8f220a75c0c"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:28:23.400Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c7",
+    "object_id": "5861210100",
+    "sap_code": "5861210100",
+    "sis_code": "RMMRF-5861210100-THRM-L-C",
+    "material_name": "LTK_LED_CAP",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.019,
+        "_id": "63987fa5ee23a8f220a71f2f"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:35:33.639Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923cd",
+    "object_id": "5875520300",
+    "sap_code": "5875520300",
+    "sis_code": "RMMRF-5875520300-D-LNR155",
+    "material_name": "DOOR LINER SHEET 1378 x 666 x 1.3_D51155",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0496,
+        "_id": "63987223ee23a8f220a71e9b"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 1.1532,
+        "_id": "63987223ee23a8f220a71e9c"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0372,
+        "_id": "63987223ee23a8f220a71e9d"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:37:55.726Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d6",
+    "object_id": "6100211000",
+    "sap_code": "6100211000",
+    "sis_code": "RMMRF-GST-GRAY-FRZ-D51200",
+    "material_name": "GASKET_GR_LIGHT_GRAY_FRZ_D51200",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b0",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ee",
+    "object_id": "5769100100",
+    "sap_code": "5769100100",
+    "sis_code": "RMSFG-5769100100",
+    "material_name": "Body Liner (Deep)-D56",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b1",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f6",
+    "object_id": "5770200208",
+    "sap_code": "5770200208",
+    "sis_code": "RMSFG-5770200208",
+    "material_name": "Body Liner (Deep)-208R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b2",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f7",
+    "object_id": "5770100208",
+    "sap_code": "5770100208",
+    "sis_code": "RMSFG-5770100208",
+    "material_name": "Body Liner (Normal)-208R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b3",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923fc",
+    "object_id": "5770100333",
+    "sap_code": "5770100333",
+    "sis_code": "RMSFG-5770100333",
+    "material_name": "Body Liner (Normal)-333R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b4",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92401",
+    "object_id": "5985830100",
+    "sap_code": "5985830100",
+    "sis_code": "RMSFG-5985830100",
+    "material_name": "FLANGE_HEATER_PIPE_ASSM_K56260",
+    "source_category": "6395ad7cdd62aaa6a3b5871a",
+    "sfg_category": "6395c1c923c71893f36751e1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b5",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92404",
+    "object_id": "5985850100",
+    "sap_code": "5985850100",
+    "sis_code": "RMSFG-5985850100",
+    "material_name": "PANEL_HEATER_BR_GR_K56250   ",
+    "source_category": "6395ad7cdd62aaa6a3b5871a",
+    "sfg_category": "6395c1c923c71893f36751e1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b6",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92411",
+    "object_id": "7000200243",
+    "sap_code": "7000200243",
+    "sis_code": "RMSFG-7000200243",
+    "material_name": "Side Sheet (Right)-243",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b7",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92416",
+    "object_id": "8000000198",
+    "sap_code": "8000000198",
+    "sis_code": "RMSFG-8000000198",
+    "material_name": "Back Sheet-198",
+    "source_category": "6395adaddd62aaa6a3b58722",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b8",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92417",
+    "object_id": "8000000208",
+    "sap_code": "8000000208",
+    "sis_code": "RMSFG-8000000208",
+    "material_name": "Back Sheet-208",
+    "source_category": "6395adaddd62aaa6a3b58722",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21b9",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92423",
+    "object_id": "2010056260",
+    "sap_code": "2010056260",
+    "sis_code": "RMSFG-2010056260",
+    "material_name": "Foamed Empty Body_KV2",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21ba",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92426",
+    "object_id": "3100351185",
+    "sap_code": "3100351185",
+    "sis_code": "RMSFG-3100351185",
+    "material_name": "Foamed Glass Door FRZ_D51185",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21bb",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92444",
+    "object_id": "4100051185",
+    "sap_code": "4100051185",
+    "sis_code": "RMSFG-4100051185",
+    "material_name": "Door Fitted Body_D51185",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21bc",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92446",
+    "object_id": "4101056230",
+    "sap_code": "4101056230",
+    "sis_code": "RMSFG-4101056230",
+    "material_name": "Door Fitted Body_DV3",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21bd",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92448",
+    "object_id": "4111056260",
+    "sap_code": "4111056260",
+    "sis_code": "RMSFG-4111056260",
+    "material_name": "Door Fitted Body_KV3",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21be",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9244b",
+    "object_id": "4100000243",
+    "sap_code": "4100000243",
+    "sis_code": "RMSFG-4100000243",
+    "material_name": "Door Fitted Body_243R",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21bf",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9244d",
+    "object_id": "4400000333",
+    "sap_code": "4400000333",
+    "sis_code": "RMSFG-4400000333",
+    "material_name": "Door Fitted Body_333R",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21c0",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9244e",
+    "object_id": "6116980200",
+    "sap_code": "6116980200",
+    "sis_code": "RMSFG-6116980200",
+    "material_name": "CRISPER_DRAWER_BODY_D56230 (Crisper)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21c1",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9245b",
+    "object_id": "6127900100",
+    "sap_code": "6127900100",
+    "sis_code": "RMSFG-6127900100",
+    "material_name": "DOOR_RACK_FF_55MM_BANG (hot stamped)",
+    "source_category": "6395adf0d6329a1880356fb9",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21c2",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92460",
+    "object_id": "6117000100",
+    "sap_code": "6117000100",
+    "sis_code": "RMSFG-6117000100",
+    "material_name": "K56_FRZ_DRAWER_CAP_145MM (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21c3",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9238c",
+    "object_id": "5851980100",
+    "sap_code": "5851980100",
+    "sis_code": "RMMRF-5851980100-CD-BX-HG",
+    "material_name": "CARD_BOX_HOUSING_U_1_MINI",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b523c71893f36751d9",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17ddf",
+        "model_type": "RM",
+        "quantity": 0.078,
+        "_id": "63994699ee23a8f220a73c5a"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:44:25.102Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92376",
+    "object_id": "BODY LINER D56",
+    "sap_code": "5855221700",
+    "sis_code": "RMMRF-5769110000-B-LNRD56",
+    "material_name": "BODY LINER D56",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.1888,
+        "_id": "6399b98a372538c31c54f79f"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 4.3896,
+        "_id": "6399b98a372538c31c54f7a0"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0708,
+        "_id": "6399b98a372538c31c54f7a1"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de3",
+        "model_type": "RM",
+        "quantity": 0.0708,
+        "_id": "6399b98a372538c31c54f7a2"
+      }
+    ],
+    "updatedAt": "2022-12-14T11:54:50.732Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92374",
+    "object_id": "DOOR LINER D56",
+    "sap_code": "5740998800",
+    "sis_code": "RMMRF-5769130000-D-LNRD56",
+    "material_name": "DOOR LINER D56",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616,
+        "_id": "639866f2402214facb0bf1e9"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 1.4322,
+        "_id": "639866f2402214facb0bf1ea"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0462,
+        "_id": "639866f2402214facb0bf1eb"
+      }
+    ],
+    "updatedAt": "2022-12-13T11:50:10.847Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9239a",
+    "object_id": "5852070100",
+    "sap_code": "5852070100",
+    "sis_code": "RMMRF-FLNG-HL-5852070100",
+    "material_name": "FLANGE_HOLE_PLUG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.001,
+        "_id": "63996ce3ee23a8f220a75662"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:27:47.445Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9239e",
+    "object_id": "5852160100",
+    "sap_code": "5852160100",
+    "sis_code": "RMMRF-LMN-TRY-5852160100",
+    "material_name": "EGG_LEMON_TRAY",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.03267,
+        "_id": "63987e1aee23a8f220a71f0f"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.00033,
+        "_id": "63987e1aee23a8f220a71f10"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:28:58.871Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9239f",
+    "object_id": "5851260100",
+    "sap_code": "5851260100",
+    "sis_code": "RMMRF-5851260100-EFSH-T-D",
+    "material_name": "EVERFRESH_TOP_D56",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b523c71893f36751d9",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd7",
+        "model_type": "RM",
+        "quantity": 0.16,
+        "_id": "6399672eee23a8f220a74bf3"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:03:26.412Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b5",
+    "object_id": "5852060100",
+    "sap_code": "5852060100",
+    "sis_code": "RMMRF-ADJS-FT-5852060100",
+    "material_name": "ADJUSTABLE_FOOT_PLASTIC",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.019,
+        "_id": "63996ffbee23a8f220a75675"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17d7f",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63996ffbee23a8f220a75676"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:40:59.479Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923bf",
+    "object_id": "5861070100",
+    "sap_code": "5861070100",
+    "sis_code": "RMMF-5861070100-DRWR-175B",
+    "material_name": "FRZ_DRAWER_175MM_BACK",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21d2",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c3",
+    "object_id": "5860650100",
+    "sap_code": "5860650100",
+    "sis_code": "RMMRF-5860650100-LDBC-51",
+    "material_name": "UPPER_DOOR_BOTTOM_CAP_51CM_GD",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.124,
+        "_id": "63999722ee23a8f220a75c06"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:28:02.357Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923dc",
+    "object_id": "5860810200",
+    "sap_code": "5860810200",
+    "sis_code": "RMMRF-5860810200-S-BCK185",
+    "material_name": "STEEL_BACKWALL_D51155",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17da7",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63987558ee23a8f220a71ebb"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:51:36.908Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e3",
+    "object_id": "5861060100",
+    "sap_code": "5861060100",
+    "material_name": "CRISPER_DRAWER_K51",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21d5",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ed",
+    "object_id": "5860970100",
+    "sap_code": "5860970100",
+    "sis_code": "RMSFG-5860970100",
+    "material_name": "Body Liner (Normal)-D51185",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21d6",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f2",
+    "object_id": "5769050100",
+    "sap_code": "5769050100",
+    "sis_code": "RMSFG-5769050100",
+    "material_name": "Body Liner (Normal)-KV2",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21d7",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923fd",
+    "object_id": "5984300100",
+    "sap_code": "5984300100",
+    "sis_code": "RMSFG-5984300100",
+    "material_name": "Eva Wrapped FRZ-D56230",
+    "source_category": "6395ad72dd62aaa6a3b58718",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21d8",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92407",
+    "object_id": "5982880200",
+    "sap_code": "5982880200",
+    "sis_code": "RMSFG-5982880200",
+    "material_name": "U-Shell_K56",
+    "source_category": "6395ad8fdd62aaa6a3b5871c",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21d9",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9240f",
+    "object_id": "7000200208",
+    "sap_code": "7000200208",
+    "sis_code": "RMSFG-7000200208",
+    "material_name": "Side Sheet (Right)-208",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21da",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92415",
+    "object_id": "7000200333",
+    "sap_code": "7000200333",
+    "sis_code": "RMSFG-7000200333",
+    "material_name": "Side Sheet (Right)-333",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21db",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92419",
+    "object_id": "8000000273",
+    "sap_code": "8000000273",
+    "sis_code": "RMSFG-8000000273",
+    "material_name": "Back Sheet-273",
+    "source_category": "6395adaddd62aaa6a3b58722",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21dc",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9241a",
+    "object_id": "8000000333",
+    "sap_code": "8000000333",
+    "sis_code": "RMSFG-8000000333",
+    "material_name": "Back Sheet-333",
+    "source_category": "6395adaddd62aaa6a3b58722",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21dd",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92430",
+    "object_id": "3100300243",
+    "sap_code": "3100300243",
+    "sis_code": "RMSFG-3100300243",
+    "material_name": "Foamed Glass Door FRZ_243R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21de",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92437",
+    "object_id": "5769120100",
+    "sap_code": "5769120100",
+    "sis_code": "RMSFG-5769120100",
+    "material_name": "Door Liner (Deep)-D56",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21df",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9243c",
+    "object_id": "5660100198",
+    "sap_code": "5660100198",
+    "sis_code": "RMSFG-5660100198",
+    "material_name": "Door Liner (Normal)-198R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21e0",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92447",
+    "object_id": "4110056260",
+    "sap_code": "4110056260",
+    "sis_code": "RMSFG-4110056260",
+    "material_name": "Door Fitted Body_KV2",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21e1",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92449",
+    "object_id": "4100000198",
+    "sap_code": "4100000198",
+    "sis_code": "RMSFG-4100000198",
+    "material_name": "Door Fitted Body_198R",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21e2",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92452",
+    "object_id": "5872270100",
+    "sap_code": "5872270100",
+    "sis_code": "RMSFG-5872270100",
+    "material_name": "CRISPER_BODY_K56260 (Nutrilock & Hot Stamped)",
+    "source_category": "6395adf0d6329a1880356fb9",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21e3",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92462",
+    "object_id": "5861580100",
+    "sap_code": "5861580100",
+    "sis_code": "RMSFG-5861580100",
+    "material_name": "DOOR_RACK_FF_51CM_50MM (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21e4",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92379",
+    "object_id": "5849750100",
+    "sap_code": "5849750100",
+    "sis_code": "RMMRF-TRAVERSE-5849750100",
+    "material_name": "MIDDLE_TRAVERSE_56CM   ",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c19323c71893f36751cf",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17d7d",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63987601ee23a8f220a71ec4"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:54:25.450Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92380",
+    "object_id": "5852210100",
+    "sap_code": "5852210100",
+    "sis_code": "RMMRF-H-CLSER-5852210100",
+    "material_name": "FRZ_DOOR_HINGE_CLOSER",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de0",
+        "model_type": "RM",
+        "quantity": 0.00739,
+        "_id": "639881e4ee23a8f220a71f63"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dda",
+        "model_type": "RM",
+        "quantity": 0.00011,
+        "_id": "639881e4ee23a8f220a71f64"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:45:08.646Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92383",
+    "object_id": "5827330200",
+    "sap_code": "5827330200",
+    "sis_code": "RMMRF-B-D-B-C-5827330200",
+    "material_name": "BOTTOM_DOOR_BOTTOM_CAP_56CM_GD_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd8",
+        "model_type": "RM",
+        "quantity": 0.137,
+        "_id": "6399961aee23a8f220a75bfa"
+      }
+    ],
+    "updatedAt": "2022-12-14T09:23:38.308Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92389",
+    "object_id": "5851970100",
+    "sap_code": "5851970100",
+    "sis_code": "RMMRF-5851970100-BTN-DSBC",
+    "material_name": "BUTTON DOOR SWITCH BACK COVER",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17ddf",
+        "model_type": "RM",
+        "quantity": 0.014,
+        "_id": "6399465eee23a8f220a73c54"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:43:26.047Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9238d",
+    "object_id": "5850170100",
+    "sap_code": "5850170100",
+    "sis_code": "RMMRF-CRS-D56-5850170100",
+    "material_name": "CRISPER_DRAWER_BODY_D56230",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.89991,
+        "_id": "63987ceaee23a8f220a71ef9"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.00909,
+        "_id": "63987ceaee23a8f220a71efa"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:23:54.727Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92396",
+    "object_id": "5850400100",
+    "sap_code": "5850400100",
+    "sis_code": "RMMRF-BTM-WAL-5850400100",
+    "material_name": "PLS_BOTTOM_WALL",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.98348,
+        "_id": "639889c9ee23a8f220a71f80"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dd9",
+        "model_type": "RM",
+        "quantity": 0.08552,
+        "_id": "639889c9ee23a8f220a71f81"
+      }
+    ],
+    "updatedAt": "2022-12-13T14:18:49.076Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b3",
+    "object_id": "5862540200",
+    "sap_code": "5862540200",
+    "sis_code": "RMMRF-5862540200-DYKE-K56",
+    "material_name": "K56_BOTTOM_DYKE_SUP_RIGHT",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.008,
+        "_id": "639942a1ee23a8f220a73c30"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:27:29.252Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b4",
+    "object_id": "5851910100",
+    "sap_code": "5851910100",
+    "sis_code": "RMMRF-PPE-PIT-5851910100",
+    "material_name": "FIXER CONDENSER PIPE PIT 60",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.006,
+        "_id": "63994110ee23a8f220a73c12"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:20:48.737Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b7",
+    "object_id": "5864680100",
+    "sap_code": "5864680100",
+    "sis_code": "RMMRF-5864680100-W-DRNK56",
+    "material_name": "WATER_DRAIN_ADAPTER_FF_COMBI",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd5",
+        "model_type": "RM",
+        "quantity": 0.004,
+        "_id": "63994303ee23a8f220a73c36"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:29:07.568Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ca",
+    "object_id": "5875520500",
+    "sap_code": "5875520500",
+    "sis_code": "RMMRF-BODYLINER51185-SEET",
+    "material_name": "INNER_LINER_SHEET 1570 x 680 x 4.5",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.1708,
+        "_id": "63986bf7ee23a8f220a71613"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 3.9711,
+        "_id": "63986bf7ee23a8f220a71614"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0641,
+        "_id": "63986bf7ee23a8f220a71615"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de3",
+        "model_type": "RM",
+        "quantity": 0.0641,
+        "_id": "63986bf7ee23a8f220a71616"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:11:35.161Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d0",
+    "object_id": "5875521500",
+    "sap_code": "5875521500",
+    "material_name": "DOOR LINER SHEET 1583 x 666 x 1.3_K51185",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21f5",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d1",
+    "object_id": "6100210500",
+    "sap_code": "6100210500",
+    "sis_code": "RMMRF-GRAY-FF-D51155",
+    "material_name": "GASKET_GR_LIGHT_GRAY_FF_D51155",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21f6",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923d8",
+    "object_id": "6100211200",
+    "sap_code": "6100211200",
+    "sis_code": "RMMRF-GST-GRAY-FRZ-K51185",
+    "material_name": "GASKET_GR_LIGHT_GRAY_FRZ_K51185",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c19b23c71893f36751d1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21f7",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923e6",
+    "object_id": "5860720100",
+    "sap_code": "5860720100",
+    "sis_code": "RMMRF-5860720100-DRACK100",
+    "material_name": "DOOR_RACK_FF_51CM_100MM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.25245,
+        "_id": "63987ff9ee23a8f220a71f36"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.00255,
+        "_id": "63987ff9ee23a8f220a71f37"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:36:57.162Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ea",
+    "object_id": "BARCODE-STKR",
+    "sis_code": "RMMRF-BARCODE-STKR",
+    "material_name": "BARCODE STICKER (7 PCS OF SET)",
+    "source_category": "6395ad24dd62aaa6a3b58710",
+    "sfg_category": "6395c1c423c71893f36751df",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17d36",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63986d72ee23a8f220a7161e"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:17:54.843Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ef",
+    "object_id": "5769110100",
+    "sap_code": "5769110100",
+    "sis_code": "RMSFG-5769110100",
+    "material_name": "Body Liner (Normal)-DV2",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21fb",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f1",
+    "object_id": "5769060100",
+    "sap_code": "5769060100",
+    "sis_code": "RMSFG-5769060100",
+    "material_name": "Body Liner (Deep)-K56",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21fc",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f3",
+    "object_id": "5769050200",
+    "sap_code": "5769050200",
+    "sis_code": "RMSFG-5769050200",
+    "material_name": "Body Liner (Normal)-KV3",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21fd",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f9",
+    "object_id": "5770100243",
+    "sap_code": "5770100243",
+    "sis_code": "RMSFG-5770100243",
+    "material_name": "Body Liner (Normal)-243R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21fe",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92410",
+    "object_id": "7000100243",
+    "sap_code": "7000100243",
+    "sis_code": "RMSFG-7000100243",
+    "material_name": "Side Sheet (Left)-243",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d21ff",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92412",
+    "object_id": "7000100273",
+    "sap_code": "7000100273",
+    "sis_code": "RMSFG-7000100273",
+    "material_name": "Side Sheet (Left)-273",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2200",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92414",
+    "object_id": "7000100333",
+    "sap_code": "7000100333",
+    "sis_code": "RMSFG-7000100333",
+    "material_name": "Side Sheet (Left)-333",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2201",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9241d",
+    "object_id": "2000000243",
+    "sap_code": "2000000243",
+    "sis_code": "RMSFG-2000000243",
+    "material_name": "Foamed Empty Body_243R",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2202",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9241e",
+    "object_id": "2000000273",
+    "sap_code": "2000000273",
+    "sis_code": "RMSFG-2000000273",
+    "material_name": "Foamed Empty Body_273R",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2203",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92424",
+    "object_id": "2011056260",
+    "sap_code": "2011056260",
+    "sis_code": "RMSFG-2011056260",
+    "material_name": "Foamed Empty Body_KV3",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2204",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9242f",
+    "object_id": "3100200243",
+    "sap_code": "3100200243",
+    "sis_code": "RMSFG-3100200243",
+    "material_name": "Foamed Glass Door FF_243R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2205",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9243e",
+    "object_id": "5660100208",
+    "sap_code": "5660100208",
+    "sis_code": "RMSFG-5660100208",
+    "material_name": "Door Liner (Normal)-208R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2206",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9244a",
+    "object_id": "4100000208",
+    "sap_code": "4100000208",
+    "sis_code": "RMSFG-4100000208",
+    "material_name": "Door Fitted Body_208R",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2207",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92454",
+    "object_id": "6129080100",
+    "sap_code": "6129080100",
+    "sis_code": "RMSFG-6129080100",
+    "material_name": "EVERFRESH_TOP_K56 (hot stamped)",
+    "source_category": "6395adf0d6329a1880356fb9",
+    "sfg_category": "6395c1b523c71893f36751d9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2208",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92455",
+    "object_id": "6117030100",
+    "sap_code": "6117030100",
+    "sis_code": "RMSFG-6117030100",
+    "material_name": "EVERFRESH_BOTTOM_K56 (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b523c71893f36751d9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2209",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92375",
+    "object_id": "DOOR LINER K56",
+    "sap_code": "5740998700",
+    "sis_code": "RMMRF-5769070000-D-LNRK56",
+    "material_name": "DOOR LINER K56",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0692,
+        "_id": "63986743402214facb0bf1ee"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 1.6089,
+        "_id": "63986743402214facb0bf1ef"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0519,
+        "_id": "63986743402214facb0bf1f0"
+      }
+    ],
+    "updatedAt": "2022-12-13T11:51:31.502Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92386",
+    "object_id": "5859160100",
+    "sis_code": "RMMRF-5859160100-UDBC-VCM",
+    "material_name": "UPPER_DOOR_BOTTOM_CAP_56CM_VCM_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a123c71893f36751d3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d220d",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92391",
+    "object_id": "5850000100",
+    "sap_code": "5850000100",
+    "sis_code": "RMMRF-5850000100-DRACK100",
+    "material_name": "DOOR_RACK_FF_100MM_56CM_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.34056,
+        "_id": "63987cb6ee23a8f220a71ef4"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.00344,
+        "_id": "63987cb6ee23a8f220a71ef5"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:23:02.437Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92393",
+    "object_id": "5851280100",
+    "sap_code": "5851280100",
+    "sis_code": "RMMRF-5851280100-D-CAP200",
+    "material_name": "K56_FRZ_DRW_CAP_200MM   ",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd6",
+        "model_type": "RM",
+        "quantity": 0.4554,
+        "_id": "63987e9dee23a8f220a71f18"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17dde",
+        "model_type": "RM",
+        "quantity": 0.0046,
+        "_id": "63987e9dee23a8f220a71f19"
+      }
+    ],
+    "updatedAt": "2022-12-13T13:31:09.666Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92395",
+    "object_id": "5851290100",
+    "sap_code": "5851290100",
+    "sis_code": "RMMRF-5851290100-D-CAP145",
+    "material_name": "K56_FRZ_DRAWER_CAP_145MM",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2212",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a4",
+    "object_id": "5852170100",
+    "sap_code": "5852170100",
+    "sis_code": "RMMRF-5852170100-FLTR-BDY",
+    "material_name": "ODOUR_FILTER_BODY",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 0.01455,
+        "_id": "63994aa4ee23a8f220a7416c"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17ddd",
+        "model_type": "RM",
+        "quantity": 0.00045,
+        "_id": "63994aa4ee23a8f220a7416d"
+      }
+    ],
+    "updatedAt": "2022-12-14T04:01:40.851Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923a7",
+    "object_id": "5852150100",
+    "sap_code": "5852150100",
+    "sis_code": "RMMRF-5852150100-LTC-BTN",
+    "material_name": "LTC_BUTTON",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 0.02037,
+        "_id": "63994f50ee23a8f220a74191"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17ddd",
+        "model_type": "RM",
+        "quantity": 0.00063,
+        "_id": "63994f50ee23a8f220a74192"
+      }
+    ],
+    "updatedAt": "2022-12-14T04:21:36.679Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ac",
+    "object_id": "5769160300",
+    "sap_code": "5769160300",
+    "sis_code": "RMMRF-5769160300-ST-BW-K",
+    "material_name": "STEEL_BACKWALL_K56260",
+    "source_category": "6395ad50dd62aaa6a3b58714",
+    "sfg_category": "6395c18b23c71893f36751cd",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17d7b",
+        "model_type": "RM",
+        "quantity": 1,
+        "_id": "63987690ee23a8f220a71ecd"
+      }
+    ],
+    "updatedAt": "2022-12-13T12:56:48.113Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923b6",
+    "object_id": "5848680100",
+    "sap_code": "5848680100",
+    "sis_code": "RMMRF-5848680100-BTL-HLDR",
+    "material_name": "BOTTLE_HOLDER_BANG_2.25_L",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd4",
+        "model_type": "RM",
+        "quantity": 0.0679,
+        "_id": "63994728ee23a8f220a73c61"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17ddd",
+        "model_type": "RM",
+        "quantity": 0.0021,
+        "_id": "63994728ee23a8f220a73c62"
+      }
+    ],
+    "updatedAt": "2022-12-14T03:46:48.969Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923bd",
+    "object_id": "5860750100",
+    "sap_code": "5860750100",
+    "sis_code": "RMMRF-5860750100-FF-GLSS",
+    "material_name": "GLASS_SHELF_BACK_PROFILE_FF_51CM_BANG",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17dd7",
+        "model_type": "RM",
+        "quantity": 0.036,
+        "_id": "63996c31ee23a8f220a75650"
+      }
+    ],
+    "updatedAt": "2022-12-14T06:24:49.449Z"
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923c9",
+    "object_id": "5875520100",
+    "sap_code": "5875520100",
+    "sis_code": "RMMRF-5875520100-B-LNR155",
+    "material_name": "INNER_LINER_SHEET 1430 x 680 x 3.8_D51155",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d221b",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923f4",
+    "object_id": "5770200198",
+    "sap_code": "5770200198",
+    "sis_code": "RMSFG-5770200198",
+    "material_name": "Body Liner (Deep)-198R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d221c",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923fa",
+    "object_id": "5770100273",
+    "sap_code": "5770100273",
+    "sis_code": "RMSFG-5770100273",
+    "material_name": "Body Liner (Normal)-273R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d221d",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff923ff",
+    "object_id": "6108850100",
+    "sap_code": "6108850100",
+    "sis_code": "RMSFG-6108850100",
+    "material_name": "Eva Wrapped FRZ-D51185",
+    "source_category": "6395ad72dd62aaa6a3b58718",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d221e",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92405",
+    "object_id": "6132420200",
+    "sap_code": "6132420200",
+    "sis_code": "RMSFG-6132420200",
+    "material_name": "PANEL_HEATER_D51185_SubAssy",
+    "source_category": "6395ad7cdd62aaa6a3b5871a",
+    "sfg_category": "6395c1c923c71893f36751e1",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d221f",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92406",
+    "object_id": "5982880100",
+    "sap_code": "5982880100",
+    "sis_code": "RMSFG-5982880100",
+    "material_name": "U-Shell_D56",
+    "source_category": "6395ad8fdd62aaa6a3b5871c",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2220",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92409",
+    "object_id": "6101120100",
+    "sap_code": "6101120100",
+    "sis_code": "RMSFG-6101120100",
+    "material_name": "MIDDLE_TRAVERSE_56CM (clinched)",
+    "source_category": "6395ad99dd62aaa6a3b5871e",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2221",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9240d",
+    "object_id": "7000200198",
+    "sap_code": "7000200198",
+    "sis_code": "RMSFG-7000200198",
+    "material_name": "Side Sheet (Right)-198",
+    "source_category": "6395ada3dd62aaa6a3b58720",
+    "sfg_category": "6395c1bb23c71893f36751db",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2222",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92421",
+    "object_id": "2000056230",
+    "sap_code": "2000056230",
+    "sis_code": "RMSFG-2000056230",
+    "material_name": "Foamed Empty Body_DV2",
+    "source_category": "6395adb8dd62aaa6a3b58724",
+    "sfg_category": "6395c1ce23c71893f36751e3",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2223",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92428",
+    "object_id": "3100356230",
+    "sap_code": "3100356230",
+    "sis_code": "RMSFG-3100356230",
+    "material_name": "Foamed Glass Door FRZ_D56",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2224",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9242e",
+    "object_id": "3100300208",
+    "sap_code": "3100300208",
+    "sis_code": "RMSFG-3100300208",
+    "material_name": "Foamed Glass Door FRZ_208R",
+    "source_category": "6395adc2dd62aaa6a3b58726",
+    "sfg_category": "6395c1d423c71893f36751e5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2225",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9243a",
+    "object_id": "5769070100",
+    "sap_code": "5769070100",
+    "sis_code": "RMSFG-5769070100",
+    "material_name": "Door Liner (Normal)-K56",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2226",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92441",
+    "object_id": "5660100273",
+    "sap_code": "5660100273",
+    "sis_code": "RMSFG-5660100273",
+    "material_name": "Door Liner (Normal)-273R",
+    "source_category": "6395ad67dd62aaa6a3b58716",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2227",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9244c",
+    "object_id": "4100000273",
+    "sap_code": "4100000273",
+    "sis_code": "RMSFG-4100000273",
+    "material_name": "Door Fitted Body_273R",
+    "source_category": "6395addad6329a1880356fb4",
+    "sfg_category": "6395c1da23c71893f36751e7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2228",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92459",
+    "object_id": "6117060100",
+    "sap_code": "6117060100",
+    "sis_code": "RMSFG-6117060100",
+    "material_name": "FILTER_COVER (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1a823c71893f36751d5",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d2229",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff9245e",
+    "object_id": "6127920200",
+    "sap_code": "6127920200",
+    "sis_code": "RMSFG-6127920200",
+    "material_name": "DOOR_RACK_FF_100MM_BANG (printed+hot stamped)",
+    "source_category": "6395adf0d6329a1880356fb9",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d222a",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "obsolete": false,
+    "unit": "pcs",
+    "_id": "6398657223328b7eeff92461",
+    "object_id": "5860840101",
+    "sap_code": "5860840101",
+    "sis_code": "RMSFG-5860840101",
+    "material_name": "CRISPER_DRAWER_D51 (printed)",
+    "source_category": "6395ade6d6329a1880356fb7",
+    "sfg_category": "6395c1b023c71893f36751d7",
+    "children": [
+      {
+        "_id": "6399ba2c93883bbf7b6d222b",
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0616
+      }
+    ]
+  },
+  {
+    "_id": "63986e8aee23a8f220a7182e",
+    "object_id": "SR-H10008-HIPSDOORLINNER",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sap_code": "SR-H10008-HIPSDOORLINNER",
+    "sis_code": "SR-H10008-HIPSDOORLINNER",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "material_name": "HIPS Door Linner-1825*670*1.3 H10008",
+    "obsolete": false,
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0656,
+        "_id": "63986fdeee23a8f220a71a4c"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 1.5252,
+        "_id": "63986fdeee23a8f220a71a4d"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0492,
+        "_id": "63986fdeee23a8f220a71a4e"
+      }
+    ],
+    "unit": "pcs",
+    "createdAt": "2022-12-13T12:22:34.606Z",
+    "updatedAt": "2022-12-13T12:28:14.041Z",
+    "__v": 0
+  },
+  {
+    "_id": "63987060ee23a8f220a71c66",
+    "object_id": "SR-H10009-HIPSDOORLINNER",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sap_code": "SR-H10009-HIPSDOORLINNER",
+    "sis_code": "SR-H10009-HIPSDOORLINNER",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "material_name": "HIPS Door Linner-1825*730*1.3 H-10009",
+    "obsolete": false,
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0724,
+        "_id": "63987060ee23a8f220a71c67"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 1.6833,
+        "_id": "63987060ee23a8f220a71c68"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0543,
+        "_id": "63987060ee23a8f220a71c69"
+      }
+    ],
+    "unit": "pcs",
+    "createdAt": "2022-12-13T12:30:24.022Z",
+    "updatedAt": "2022-12-13T12:30:24.022Z",
+    "__v": 0
+  },
+  {
+    "_id": "639870dbee23a8f220a71c6c",
+    "object_id": "SR-H10001-DOORLINERHIPS",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sap_code": "SR-H10001-DOORLINERHIPS",
+    "sis_code": "SR-H10001-DOORLINERHIPS",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "material_name": "Door Liner HIPS Sheet L-1498*600*1.3 H-10001",
+    "obsolete": false,
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0488,
+        "_id": "639870dbee23a8f220a71c6d"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 1.1346,
+        "_id": "639870dbee23a8f220a71c6e"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0366,
+        "_id": "639870dbee23a8f220a71c6f"
+      }
+    ],
+    "unit": "pcs",
+    "createdAt": "2022-12-13T12:32:27.557Z",
+    "updatedAt": "2022-12-13T12:32:27.557Z",
+    "__v": 0
+  },
+  {
+    "_id": "63987139ee23a8f220a71c72",
+    "object_id": "SR-H10007-HIPSDOORLINNER",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sap_code": "SR-H10007-HIPSDOORLINNER",
+    "sis_code": "SR-H10007-HIPSDOORLINNER",
+    "sfg_category": "6395c17323c71893f36751c9",
+    "material_name": "HIPS Door Linner-1670*670*1.3 H-10007",
+    "obsolete": false,
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.0604,
+        "_id": "63987139ee23a8f220a71c73"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 1.4043,
+        "_id": "63987139ee23a8f220a71c74"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0453,
+        "_id": "63987139ee23a8f220a71c75"
+      }
+    ],
+    "unit": "pcs",
+    "createdAt": "2022-12-13T12:34:01.384Z",
+    "updatedAt": "2022-12-13T12:34:01.384Z",
+    "__v": 0
+  },
+  {
+    "_id": "63993b92ee23a8f220a72664",
+    "object_id": "SR-H10011-HIPSBODYLINNE",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sap_code": "SR-H10011-HIPSBODYLINNE",
+    "sis_code": "SR-H10011-HIPSBODYLINNE",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "material_name": "HIPS Body Linner-1860*678*3.8 H-10011",
+    "obsolete": false,
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.2004,
+        "_id": "63993b92ee23a8f220a72665"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 4.6593,
+        "_id": "63993b92ee23a8f220a72666"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0752,
+        "_id": "63993b92ee23a8f220a72667"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de3",
+        "model_type": "RM",
+        "quantity": 0.0752,
+        "_id": "63993b92ee23a8f220a72668"
+      }
+    ],
+    "unit": "pcs",
+    "createdAt": "2022-12-14T02:57:22.132Z",
+    "updatedAt": "2022-12-14T02:57:22.132Z",
+    "__v": 0
+  },
+  {
+    "_id": "63993c03ee23a8f220a72b0f",
+    "object_id": "SR-H10012-HIPSBODYLINNE",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sap_code": "SR-H10012-HIPSBODYLINNE",
+    "sis_code": "SR-H10012-HIPSBODYLINNE",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "material_name": "HIPS Body Linner-1860*738*3.8 H-10012",
+    "obsolete": false,
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.218,
+        "_id": "63993c03ee23a8f220a72b10"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 5.0685,
+        "_id": "63993c03ee23a8f220a72b11"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.0818,
+        "_id": "63993c03ee23a8f220a72b12"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de3",
+        "model_type": "RM",
+        "quantity": 0.0818,
+        "_id": "63993c03ee23a8f220a72b13"
+      }
+    ],
+    "unit": "pcs",
+    "createdAt": "2022-12-14T02:59:15.117Z",
+    "updatedAt": "2022-12-14T02:59:15.117Z",
+    "__v": 0
+  },
+  {
+    "_id": "63993c7cee23a8f220a72fca",
+    "object_id": "SR-H10004-BODY-LINERHIP",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sap_code": "SR-H10004-BODY-LINERHIP",
+    "sis_code": "SR-H10004-BODY-LINERHIP",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "material_name": "Body  Liner HIPS Sheet  L-1601*651*3.8 H-10004",
+    "obsolete": false,
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.166,
+        "_id": "63993c7cee23a8f220a72fcb"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 3.85,
+        "_id": "63993c7cee23a8f220a72fcc"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.062,
+        "_id": "63993c7cee23a8f220a72fcd"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de3",
+        "model_type": "RM",
+        "quantity": 0.062,
+        "_id": "63993c7cee23a8f220a72fce"
+      }
+    ],
+    "unit": "pcs",
+    "createdAt": "2022-12-14T03:01:16.740Z",
+    "updatedAt": "2022-12-14T03:01:16.740Z",
+    "__v": 0
+  },
+  {
+    "_id": "63993cfeee23a8f220a73495",
+    "object_id": "SR-H10010-HIPSBODYLINNE",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sap_code": "SR-H10010-HIPSBODYLINNE",
+    "sis_code": "SR-H10010-HIPSBODYLINNE",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "material_name": "HIPS Body Linner-1728*678*3.8 H-10010",
+    "obsolete": false,
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.186,
+        "_id": "63993cfeee23a8f220a73496"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 4.334,
+        "_id": "63993cfeee23a8f220a73497"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.07,
+        "_id": "63993cfeee23a8f220a73498"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de3",
+        "model_type": "RM",
+        "quantity": 0.07,
+        "_id": "63993cfeee23a8f220a73499"
+      }
+    ],
+    "unit": "pcs",
+    "createdAt": "2022-12-14T03:03:26.939Z",
+    "updatedAt": "2022-12-14T03:03:26.939Z",
+    "__v": 0
+  },
+  {
+    "_id": "63993d6dee23a8f220a73970",
+    "object_id": "RMMRF-5875520100-B-LNR155",
+    "source_category": "6395ad40dd62aaa6a3b58712",
+    "sap_code": "RMMRF-5875520100-B-LNR155",
+    "sis_code": "RMMRF-5875520100-B-LNR155",
+    "sfg_category": "6395c18123c71893f36751cb",
+    "material_name": "INNER-LINER-SHEET1430x680x3.8",
+    "obsolete": false,
+    "children": [
+      {
+        "object_id": "6394953f5637a056d9c17de5",
+        "model_type": "RM",
+        "quantity": 0.155,
+        "_id": "63993d6dee23a8f220a73971"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de9",
+        "model_type": "RM",
+        "quantity": 3.599,
+        "_id": "63993d6dee23a8f220a73972"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de2",
+        "model_type": "RM",
+        "quantity": 0.058,
+        "_id": "63993d6dee23a8f220a73973"
+      },
+      {
+        "object_id": "6394953f5637a056d9c17de3",
+        "model_type": "RM",
+        "quantity": 0.058,
+        "_id": "63993d6dee23a8f220a73974"
+      }
+    ],
+    "unit": "pcs",
+    "createdAt": "2022-12-14T03:05:17.045Z",
+    "updatedAt": "2022-12-14T03:05:17.045Z",
+    "__v": 0
+  }
+]

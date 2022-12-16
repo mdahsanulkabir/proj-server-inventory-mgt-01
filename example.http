@@ -104,28 +104,13 @@ Content-Type: application/json
             "object_id" : "6353cd5a4d7810d0a95984f3",
             "model_type" : "RM",
             "quantity" : 4
-        },
-        {
-            "object_id" : "63918aae7672b80ed5411a7f",
-            "model_type" : "SFGBOM",
-            "quantity" : 5
-        },
-        {
-            "object_id" : "63918aeb7672b80ed5411a82",
-            "model_type" : "SFGBOM",
-            "quantity" : 50
-        },
-        {
-            "object_id" : "63918b0a7672b80ed5411a86",
-            "model_type" : "SFGBOM",
-            "quantity" : 50
         }
     ]
 }
 
 
 ###
-get http://localhost:5000/api/sfgBOM
+get http://localhost:5000/api/getSfgSourceCategory
 
 
 ###
@@ -139,13 +124,7 @@ Content-Type: application/json
 
 
 ###
-post http://localhost:5000/api/createSfgCategory
-Content-Type: application/json
-
-{
-    "sfg_category" : "COMPLETE BODY"
-}
-
+get http://localhost:5000/api/getsfgtestdata
 
 ###
 

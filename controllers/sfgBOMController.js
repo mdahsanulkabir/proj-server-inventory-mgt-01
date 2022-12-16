@@ -91,9 +91,28 @@ const updateSFGBOM = async ( req, res ) => {
     }
 }
 
+const getTestData = async (req, res) => {
+    try {
+        const sfg = await SFGBOM.find({})
+        // .populate({
+        //     path : 'children.object_id'
+        // })
+        // const newSFG = sfg.map(data => {
+        //     return {
+        //         sfgId : _id,
+
+        //     }
+        // })
+        res.status(200).json(sfg);
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+}
+
 module.exports = {
     createSFGBOM,
     getSFGBOM,
     getOneSFGBOM,
-    updateSFGBOM
+    updateSFGBOM,
+    getTestData
 }

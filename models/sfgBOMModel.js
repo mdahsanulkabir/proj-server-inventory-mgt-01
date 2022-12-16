@@ -53,7 +53,6 @@ const sfgBOMSchema = new Schema({
         // })
         }
         ],
-        
     unit: {
         type: String,
         default: 'pcs'
