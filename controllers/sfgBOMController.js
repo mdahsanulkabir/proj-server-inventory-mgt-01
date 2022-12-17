@@ -93,10 +93,13 @@ const updateSFGBOM = async ( req, res ) => {
 
 const getTestData = async (req, res) => {
     try {
-        const sfg = await SFGBOM.find({})
-        // .populate({
-        //     path : 'children.object_id'
-        // })
+        const sfg = await SFGBOM.find({source_category : '6395ad40dd62aaa6a3b58712'})
+        .populate({
+            path: 'source_category'
+        })
+        .populate({
+            path : 'children.object_id'
+        })
         // const newSFG = sfg.map(data => {
         //     return {
         //         sfgId : _id,
