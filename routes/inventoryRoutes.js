@@ -58,7 +58,8 @@ const {
         getSFGBOM,
         getOneSFGBOM,
         updateSFGBOM,
-        getTestData
+        getThirdPartyPlasticActualBOM,
+        getThirdPartySheetsBOM
 } = require('../controllers/sfgBOMController')
 
 const {
@@ -175,8 +176,11 @@ router.get('/sfgBOM', getSFGBOM);
 //get single sfgBOM
 router.get('/sfgBOM/:sfgID', getOneSFGBOM);
 
-//get test data
-router.get('/getsfgtestdata', getTestData);
+//get thirdparty pastic actual bom
+router.get('/getThirdPartyPlasticActualBOM', getThirdPartyPlasticActualBOM);
+
+//get third party sheets bom
+router.get('/getThirdPartySheetsBOM', getThirdPartySheetsBOM)
 
 
 //? ///////////////////////////   SFG SOURCE CATEGORY   ///////////////////////////

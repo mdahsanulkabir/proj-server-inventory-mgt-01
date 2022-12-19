@@ -91,7 +91,7 @@ const updateSFGBOM = async ( req, res ) => {
     }
 }
 
-const getTestData = async (req, res) => {
+const getThirdPartyPlasticActualBOM = async (req, res) => {
     try {
         const sfg = await SFGBOM.find({source_category : '6395ad40dd62aaa6a3b58712'})
         .populate({
@@ -112,10 +112,31 @@ const getTestData = async (req, res) => {
     }
 }
 
+const getThirdPartySheetsBOM = async (req, res) => {
+    try {
+        const sfg = await SFGBOM.find({source_category : '6395ad50dd62aaa6a3b58714'})
+        .populate({
+            path: 'source_category'
+        })
+        .populate({
+            path : 'children.object_id'
+        })
+        // const newSFG = sfg.map(data => {
+        //     return {
+        //         sfgId : _id,
+
+        //     }
+        // })
+        res.status(200).json(sfg);
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+}
 module.exports = {
     createSFGBOM,
     getSFGBOM,
     getOneSFGBOM,
     updateSFGBOM,
-    getTestData
+    getThirdPartyPlasticActualBOM,
+    getThirdPartySheetsBOM
 }

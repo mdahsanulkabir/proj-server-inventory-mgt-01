@@ -131,8 +131,10 @@ Content-Type: application/json
 
 
 ###
-get http://localhost:5000/api/getsfgtestdata
+get http://localhost:5000/api/getThirdPartyPlasticActualBOM
 
+###
+get http://localhost:5000/api/getThirdPartySheetsBOM
 ###
 
 post http://localhost:5000/api/createPhantomPart
