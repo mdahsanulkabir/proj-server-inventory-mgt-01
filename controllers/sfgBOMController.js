@@ -112,7 +112,7 @@ const getThirdPartyPlasticActualBOM = async (req, res) => {
     }
 }
 
-const getThirdPartySheetsBOM = async (req, res) => {
+const getThirdPartyMetalSheetsBOM = async (req, res) => {
     try {
         const sfg = await SFGBOM.find({source_category : '6395ad50dd62aaa6a3b58714'})
         .populate({
@@ -138,5 +138,5 @@ module.exports = {
     getOneSFGBOM,
     updateSFGBOM,
     getThirdPartyPlasticActualBOM,
-    getThirdPartySheetsBOM
+    getThirdPartyMetalSheetsBOM
 }

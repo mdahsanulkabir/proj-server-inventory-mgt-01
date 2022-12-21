@@ -35,7 +35,17 @@ const createSupplier = async ( req, res ) => {
     }
 }
 
+const getAllSuppliers = async ( req, res ) => {
+    try {
+        const allSuppliers = await SUPPLIER.find({})
+        res.status(200).json(allSuppliers);
+    } catch (error) {
+        res.status(400).json({ error : error.message })
+    }
+}
+
 
 module.exports = {
-    createSupplier
+    createSupplier,
+    getAllSuppliers
 }

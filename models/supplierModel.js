@@ -15,19 +15,22 @@ const supplierSchema = new Schema({
     },
     supplierEmail: {
         type: String,
-        required: true,
-        unique: true
+        // requirsred: true,
+        default: "somebody@somewhere.com"
     },
     supplierAddress: {
         type: String,
-        required: true
+        required: true,
+        default: "Somewhere"
     },
     supplierContactPerson : {
         type : String,
-        required: true
+        required: true,
+        default: "Someone"
     },
     supplierContactPersonPhoneNumber : {
         type: Number,
+        default: "9999999999"
     },
     supplierCategory : {
         type: String,

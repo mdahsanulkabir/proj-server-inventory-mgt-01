@@ -50,7 +50,8 @@ const {
 } = require('../middleware/checkAdminMiddleware')
 
 const {
-        createSupplier
+        createSupplier,
+        getAllSuppliers
 } = require('../controllers/supplierController')
 
 const {
@@ -59,7 +60,7 @@ const {
         getOneSFGBOM,
         updateSFGBOM,
         getThirdPartyPlasticActualBOM,
-        getThirdPartySheetsBOM
+        getThirdPartyMetalSheetsBOM
 } = require('../controllers/sfgBOMController')
 
 const {
@@ -82,7 +83,15 @@ const {
         getOnePhantomPart,
         updatePhantomPart,
         deletePhantomPart
-} = require ('../controllers/phantomPartsController')
+} = require ('../controllers/phantomPartsController');
+
+
+const {
+        postLCStatusOption,
+        getLCStatusOptions,
+        updateLCStatusOption,
+        deleteLCStatusOption
+} = require ('../controllers/lcStatusOptionController')
 
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
@@ -164,6 +173,9 @@ router.patch('/update-user-access', checkAdminStatus, updateUserAccess);
 //? ////////////////////////////      SUPPLIER MANAGEMENT     ///////////////////////////////
 // create a new supplier
 router.post('/createSupplier', getUserToken, authenticatedUser, createSupplier);
+// router.post('/createSupplier',  createSupplier);
+
+router.get('/getAllSuppliers', getAllSuppliers)
 
 
 //? ///////////////////////////   BOM MANAGEMENT   ////////////////////////////////
@@ -180,7 +192,7 @@ router.get('/sfgBOM/:sfgID', getOneSFGBOM);
 router.get('/getThirdPartyPlasticActualBOM', getThirdPartyPlasticActualBOM);
 
 //get third party sheets bom
-router.get('/getThirdPartySheetsBOM', getThirdPartySheetsBOM)
+router.get('/getThirdPartyMetalSheetsBOM', getThirdPartyMetalSheetsBOM)
 
 
 //? ///////////////////////////   SFG SOURCE CATEGORY   ///////////////////////////
@@ -218,5 +230,19 @@ router.patch('/updatePhantomPart/:phantomPartId', updatePhantomPart);
 // delete a phantom part
 router.delete('/deletePhantomPart/:phantomPartId', deletePhantomPart);
 
+
+//?  //////////////////////////////  LC STATUS ///////////////////////////////
+
+// create lc status
+router.post('/createLcStatus', postLCStatusOption);
+
+// get all lc status
+router.get('/getLCStatusOptions', getLCStatusOptions);
+
+// update lc status
+router.patch('/updateLCStatusOption/:optionID', updateLCStatusOption)
+
+//delete lc status
+router.patch('/deleteLCStatusOption/:optionID', deleteLCStatusOption)
 
 module.exports = router

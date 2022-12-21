@@ -134,9 +134,12 @@ Content-Type: application/json
 get http://localhost:5000/api/getThirdPartyPlasticActualBOM
 
 ###
-get http://localhost:5000/api/getThirdPartySheetsBOM
+get http://localhost:5000/api/getThirdPartyMetalSheetsBOM
+###
+get http://localhost:5000/api/getAllSuppliers
 ###
 
+getAllSuppliers
 post http://localhost:5000/api/createPhantomPart
 Content-Type: application/json
 
