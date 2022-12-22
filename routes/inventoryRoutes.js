@@ -7,7 +7,7 @@ const {
         getSKU,
         createSKU,
         deleteSKU,
-        updateSKU
+        updateSKU,updateAll
 } = require('../controllers/skuController');
 
 const {
@@ -26,7 +26,7 @@ const {
 const { 
         postNewWarehouse,
         getWarehouse,
-} = require('../controllers/warehouseController')
+} = require('../controllers/warehouseController');
 
 const { 
         getUnits, createUnit, updateUnit
@@ -43,16 +43,16 @@ const {
 const { 
         getUserToken, 
         authenticatedUser 
-} = require('../middleware/userAuthMiddleware')
+} = require('../middleware/userAuthMiddleware');
 
 const { 
         checkAdminStatus 
-} = require('../middleware/checkAdminMiddleware')
+} = require('../middleware/checkAdminMiddleware');
 
 const {
         createSupplier,
         getAllSuppliers
-} = require('../controllers/supplierController')
+} = require('../controllers/supplierController');
 
 const {
         createSFGBOM,
@@ -61,21 +61,21 @@ const {
         updateSFGBOM,
         getThirdPartyPlasticActualBOM,
         getThirdPartyMetalSheetsBOM
-} = require('../controllers/sfgBOMController')
+} = require('../controllers/sfgBOMController');
 
 const {
         getSfgSourceCategory,
         createSfgSourceCategory,
         deleteSfgSourceCategory,
         updateSfgSourceCategory
-} = require('../controllers/sfgSourceCategoryController')
+} = require('../controllers/sfgSourceCategoryController');
 
 const {
         getSfgCategory,
         createSfgCategory,
         deleteSfgCategory,
         updateSfgCategory
-} = require('../controllers/sfgCategoryController')
+} = require('../controllers/sfgCategoryController');
 
 const {
         createPhantomPart,
@@ -93,6 +93,18 @@ const {
         deleteLCStatusOption
 } = require ('../controllers/lcStatusOptionController')
 
+const {
+        createLCSummary,
+        getLCSummaries,
+        updatedLCSummary
+} = require ('../controllers/lcSummaryController');
+
+const {
+        createLCDetails,
+        getLCDetails,
+        updateLCDetails
+} = require('../controllers/lcDetailController')
+
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
@@ -109,6 +121,9 @@ router.delete('/sku/:id', deleteSKU);
 
 //update an SKU
 router.patch('/sku/:id', updateSKU);
+
+//update all
+router.get('/sku/updateall', updateAll)
 
 
 //? //////////////////   ALL ROUTES FOR RM    /////////////////////
@@ -243,6 +258,29 @@ router.get('/getLCStatusOptions', getLCStatusOptions);
 router.patch('/updateLCStatusOption/:optionID', updateLCStatusOption)
 
 //delete lc status
-router.patch('/deleteLCStatusOption/:optionID', deleteLCStatusOption)
+router.delete('/deleteLCStatusOption/:optionID', deleteLCStatusOption)
+
+//? ////////////////////////////  LC SUMMARY //////////////////////////////
+
+// create new lc summary
+router.post('/createLCSummary', createLCSummary);
+
+router.get('/getLCSummaries', getLCSummaries);
+
+// update lc summary
+router.patch('/updateLCSumamry/:lcSummaryId', updatedLCSummary);
+
+
+//? //////////////////////////// LC DETAILS  /////////////////////////////
+
+// CREATE NEW LC DETAILS
+router.post('/createLCDetails', createLCDetails);
+
+
+router.get('/createLCDetails', getLCDetails);
+
+// UPDATE LC DETAILS
+router.patch('/updateLCDetails/:lcDetailId', updateLCDetails);
+
 
 module.exports = router

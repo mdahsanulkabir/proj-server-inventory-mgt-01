@@ -82,10 +82,18 @@ const updateSKU = async (req, res) => {
     res.status(200).json(sku);
 };
 
+//update all
+const updateAll = async ( req, res ) => {
+    const all = await SKU.updateMany({},
+        { $set: { active: true } })
+        res.status(200).json(all);
+}
+
 module.exports = {
     getSKUs,
     getSKU,
     createSKU,
     deleteSKU,
-    updateSKU
+    updateSKU,
+    updateAll
 }

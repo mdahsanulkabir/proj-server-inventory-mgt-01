@@ -35,6 +35,9 @@ Content-Type: : application/json
     "name":"Samba samba", "space": 5000, "description":"some samba"
 }
 
+###
+get http://localhost:5000/api/skus
+
 
 
 ###
@@ -156,6 +159,31 @@ Content-Type: application/json
   ]
 }
 
+###
+post http://localhost:5000/api/createLcStatus
+Content-Type: application/json
+
+{
+    "status" : "Not Found", 
+    "description" : "Consignment yet not shipped"
+}
+###
+
+
+post http://localhost:5000/api/createLC
+Content-Type: application/json
+
+{
+    "fileNumber" : "abcd",
+    "lcNumber" : "dgsdfgdg",
+    "lcDate" : "2022-12-11T10:16:16.232Z",
+    "piNumber" : "sdgsgs",
+    "primarySupplierName" : "sgsfg",
+    "secondarySupplierName" : "sdfsdffsd",
+    "rm_id" : "6394953f5637a056d9c17d85",
+    "shipmentDate" : [{"shipment" : "2022-12-11T10:16:16.232Z", "text" :"fwef"}],
+    "origin" : "China"
+}
 
 
 
