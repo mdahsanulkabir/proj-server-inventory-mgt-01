@@ -51,7 +51,9 @@ const {
 
 const {
         createSupplier,
-        getAllSuppliers
+        getAllSuppliers,
+        supplierInsertMany,
+        updateSupplier
 } = require('../controllers/supplierController');
 
 const {
@@ -191,6 +193,10 @@ router.post('/createSupplier', getUserToken, authenticatedUser, createSupplier);
 // router.post('/createSupplier',  createSupplier);
 
 router.get('/getAllSuppliers', getAllSuppliers)
+
+router.post('/supplierInsertMany', supplierInsertMany)
+
+router.patch('/updateSupplier/:supplierId', updateSupplier)
 
 
 //? ///////////////////////////   BOM MANAGEMENT   ////////////////////////////////

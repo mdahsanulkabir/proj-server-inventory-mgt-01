@@ -44,8 +44,35 @@ const getAllSuppliers = async ( req, res ) => {
     }
 }
 
+const supplierInsertMany = async (req, res) => {
+    console.log(req.body);
+    try {
+        const suppliers = await SUPPLIER.insertMany(req.body)
+        res.status(200).json(suppliers);
+    } catch (error) {
+        res.status(400).json({ error : error.message })
+    }
+}
+
+const updateSupplier = async ( req, res ) => {
+    console.log(req.body);
+    const { supplierId } = req.params;
+    try {
+        const updatedSupplier = await SUPPLIER.findByIdAndUpdate(
+            { _id : supplierId },
+            { ...req.body },
+            { new : true}
+        )
+        res.status(200).json(updatedSupplier);
+    } catch (error) {
+        res.status(400).json({ error : error.message })
+    }
+}
+
 
 module.exports = {
     createSupplier,
-    getAllSuppliers
+    getAllSuppliers,
+    supplierInsertMany,
+    updateSupplier
 }

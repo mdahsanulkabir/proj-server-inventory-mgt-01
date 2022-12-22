@@ -137,9 +137,53 @@ Content-Type: application/json
 get http://localhost:5000/api/getThirdPartyPlasticActualBOM
 
 ###
+
+
 get http://localhost:5000/api/getThirdPartyMetalSheetsBOM
 ###
-get http://localhost:5000/api/getAllSuppliers
+
+
+post http://localhost:5000/api/supplierInsertMany
+Content-Type: application/json
+
+[
+    {
+    "supplierID": "SUP010041",
+    "supplierName": "WANHUA CHEMICAL (SINGAPORE) PTE. LTD.",
+    "supplierEmail": "WANHUA@china.com",
+    "supplierAddress": "Somewhere at turkey",
+    "supplierContactPerson": "Mr. WANHUA",
+    "supplierContactPersonPhoneNumber": 124578601,
+    "supplierCategory": "import"
+    },
+    {
+    "supplierID": "SUP010042",
+    "supplierName": "XI'AN HONGTAI CO LTD",
+    "supplierEmail": "XI'AN@china.com",
+    "supplierAddress": "Somewhere at turkey",
+    "supplierContactPerson": "Mr. XI'AN",
+    "supplierContactPersonPhoneNumber": 124578602,
+    "supplierCategory": "import"
+    },
+    {
+    "supplierID": "SUP010043",
+    "supplierName": "YANTAI TIBRIGHT NEW MATERIALS CO., LTD",
+    "supplierEmail": "YANTAI@china.com",
+    "supplierAddress": "Somewhere at turkey",
+    "supplierContactPerson": "Mr. YANTAI",
+    "supplierContactPersonPhoneNumber": 124578603,
+    "supplierCategory": "import"
+    },
+    {
+    "supplierID": "SUP010044",
+    "supplierName": "ZHUHAI SPEEDBIRD PVC FLIM LAMINATED METAL SHEET CO LTD",
+    "supplierEmail": "ZHUHAI@china.com",
+    "supplierAddress": "Somewhere at turkey",
+    "supplierContactPerson": "Mr. ZHUHAI",
+    "supplierContactPersonPhoneNumber": 124578604,
+    "supplierCategory": "import"
+    }
+]
 ###
 
 getAllSuppliers

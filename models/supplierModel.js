@@ -15,7 +15,6 @@ const supplierSchema = new Schema({
     },
     supplierEmail: {
         type: String,
-        // requirsred: true,
         default: "somebody@somewhere.com"
     },
     supplierAddress: {
@@ -35,7 +34,7 @@ const supplierSchema = new Schema({
     supplierCategory : {
         type: String,
         enum: {
-        values: ['local', '3rd Party', 'import'],
+        values: ['import', '3rd Party', 'local'],
         }
     }
 }, { timestamps: true })
