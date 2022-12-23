@@ -229,15 +229,13 @@ Content-Type: application/json
     "origin" : "China"
 }
 
+### 
+post http://localhost:5000/api/createSkuCategory
+Content-Type: application/json
 
-
-
-
-
-
-
-
-
+{
+    "skuCategory" : "WanBao"
+}
 
 
 

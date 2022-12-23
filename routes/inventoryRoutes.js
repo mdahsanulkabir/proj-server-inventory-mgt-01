@@ -107,6 +107,12 @@ const {
         updateLCDetails
 } = require('../controllers/lcDetailController')
 
+const {
+        createSKUCategory,
+        getSKUCategories,
+        updateSKUCategory
+} = require ('../controllers/skuCategoryController')
+
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
@@ -127,6 +133,13 @@ router.patch('/sku/:id', updateSKU);
 //update all
 router.get('/sku/updateall', updateAll)
 
+//? ////////////////// ALL SKU CATEGORY ///////////////////////////
+
+router.post('/createSkuCategory', createSKUCategory);
+
+router.get('/getskucategories', getSKUCategories);
+
+router.patch('/updateskucategory/:skuCategoryId', updateSKUCategory);
 
 //? //////////////////   ALL ROUTES FOR RM    /////////////////////
 //get all RM

@@ -18,6 +18,11 @@ const skuSchema = new Schema({
     active : {
         type : Boolean,
         default: true
+    },
+    skuCategory : {
+        type: mongoose.Schema.Types.ObjectId,
+        ref : "SKUCATEGORY",
+        required: true
     }
 }, { timestamps: true })
 

@@ -72,7 +72,7 @@ const updateSKU = async (req, res) => {
         { _id: id },
         {
         ...req.body,
-        }
+        }, { new : true}
     );
 
     if (!sku) {
