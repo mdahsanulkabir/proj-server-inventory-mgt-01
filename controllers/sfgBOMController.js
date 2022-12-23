@@ -132,11 +132,22 @@ const getThirdPartyMetalSheetsBOM = async (req, res) => {
         res.status(400).json({ error: error.message });
     }
 }
+
+const getDescriptionofSFG = async ( req, res ) => {
+    try {
+        const sfgBOM = await SFGBOM.find({})
+        .select('_id object_id sap_code sis_code material_name')
+        res.status(200).json(sfgBOM);
+    } catch ( error ) {
+        res.status(400).json({ error: error.message });
+    }
+}
 module.exports = {
     createSFGBOM,
     getSFGBOM,
     getOneSFGBOM,
     updateSFGBOM,
     getThirdPartyPlasticActualBOM,
-    getThirdPartyMetalSheetsBOM
+    getThirdPartyMetalSheetsBOM,
+    getDescriptionofSFG
 }

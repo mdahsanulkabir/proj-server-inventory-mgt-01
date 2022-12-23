@@ -43,14 +43,14 @@ const sfgBOMSchema = new Schema({
             },
             model_type : {
                 type : String,
-                enum: ['RM','SFGBOM'],
+                enum: ['RM','SFGBOM','PHANTOMPART'],
                 required: true
             },
             quantity : {
                 type: Number,
                 required : true
             }
-        // })
+        // }) 
         }
         ],
     unit: {

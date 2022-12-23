@@ -42,7 +42,11 @@ const phantomPartSchema = new Schema({
             enum: ['RM','SFGBOM'],
             required: true
         }
-    }]
+    }],
+    unit: {
+        type: String,
+        default: 'pcs'
+    }
 }, { timestamps: true })
 
 module.exports = mongoose.model('PHANTOMPART', phantomPartSchema);
