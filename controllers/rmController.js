@@ -24,17 +24,28 @@ const getRM = async (req, res) => {
 
 //create a new RM
 const createRM = async (req, res) => {
-    const { object_id, source_category, rm_category, sis_code, material_name, unit} = req.body;
+    const { 
+        object_id, 
+        source_category, 
+        rm_category, 
+        sis_code, 
+        material_name, 
+        unit, 
+        sap_code, 
+        sec_source_category
+    } = req.body;
     console.log(req.body);
     //add doc to db
     try {
         const rm = await RM.create({
             object_id, 
             source_category, 
-            rm_category,
+            rm_category, 
             sis_code, 
             material_name, 
-            unit
+            unit, 
+            sap_code, 
+            sec_source_category
         })
         res.status(200).json(rm);
     } catch (error) {
@@ -71,9 +82,7 @@ const updateRM = async (req, res) => {
 
     const rm = await RM.findOneAndUpdate(
         { _id: id },
-        {
-        ...req.body,
-        }
+        { ...req.body }, { new : true }
     );
 
     if (!rm) {
