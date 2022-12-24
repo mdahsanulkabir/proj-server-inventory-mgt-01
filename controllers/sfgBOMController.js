@@ -29,6 +29,20 @@ const createSFGBOM = async ( req, res ) => {
     }
 }
 
+// create multiple BOM
+const createMultipleBOM = async ( req, res ) => {
+
+    // consolelog(...req.body);
+    // req.body.map(element => console.log(element))
+    try {
+            const BOMs = await SFGBOM.insertMany(req.body)
+            res.status(200).json(BOMs);
+
+    } catch (error) {
+        res.status(400).json({ error : error.message })
+    }
+}
+
 //all sfg bom
 const getSFGBOM = async (req,res) => {
     try {
@@ -144,6 +158,7 @@ const getDescriptionofSFG = async ( req, res ) => {
 }
 module.exports = {
     createSFGBOM,
+    createMultipleBOM,
     getSFGBOM,
     getOneSFGBOM,
     updateSFGBOM,

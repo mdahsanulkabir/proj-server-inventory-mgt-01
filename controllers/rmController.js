@@ -24,30 +24,15 @@ const getRM = async (req, res) => {
 
 //create a new RM
 const createRM = async (req, res) => {
-    const { 
-        object_id, 
-        source_category, 
-        rm_category, 
-        sis_code, 
-        material_name, 
-        unit, 
-        sap_code, 
-        sec_source_category
-    } = req.body;
-    console.log(req.body);
+    // console.log(req.body);
+    const { object_id } = req.body;
+    console.log(object_id);
     //add doc to db
     try {
-        const rm = await RM.create({
-            object_id, 
-            source_category, 
-            rm_category, 
-            sis_code, 
-            material_name, 
-            unit, 
-            sap_code, 
-            sec_source_category
+        const newRM = await RM.create({
+            
         })
-        res.status(200).json(rm);
+        res.status(200).json(newRM);
     } catch (error) {
         res.status(400).json({ error: error.message });
     }

@@ -58,6 +58,7 @@ const {
 
 const {
         createSFGBOM,
+        createMultipleBOM,
         getSFGBOM,
         getOneSFGBOM,
         updateSFGBOM,
@@ -150,7 +151,7 @@ router.get('/rms', getRMs);
 router.get('/rm/:id', getRM);
 
 //create a new RM
-router.post('/rm', checkAdminStatus, createRM);
+router.post('/rm', createRM);
 
 //delete a RM
 router.delete('/rm/:id', deleteRM);
@@ -216,6 +217,8 @@ router.patch('/updateSupplier/:supplierId', updateSupplier)
 //? ///////////////////////////   BOM MANAGEMENT   ////////////////////////////////
 // create sfgBOM
 router.post('/createSFGBOM', checkAdminStatus, createSFGBOM);
+
+router.post('/createMultipleBOM', createMultipleBOM);
 
 //get all sfg bom
 router.get('/sfgBOM', getSFGBOM);

@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const rmSchema = new Schema({
-    object_id: {
+    object_id: { 
         type: String,
         required: true
     },
@@ -12,8 +12,7 @@ const rmSchema = new Schema({
         required: true
     },
     rm_category : {
-        type: String,
-        required: false
+        type: String
     },
     sis_code: {
         type: String,
@@ -35,7 +34,6 @@ const rmSchema = new Schema({
     },
     obsolete : {
         type : Boolean,
-        required: true,
         default : false
     }
 }, { timestamps: true })
