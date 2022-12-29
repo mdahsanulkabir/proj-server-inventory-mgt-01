@@ -269,3 +269,7 @@ Content-Type: : application/json
     # "material_name" : "Super Glue",
     # "unit" : "ml",
     # "sap_code" : "180000000000"
+
+
+###
+get http://localhost:5000/api/getBOMBySFGCategory/?sfgSourcecategory=6395ad67dd62aaa6a3b58716

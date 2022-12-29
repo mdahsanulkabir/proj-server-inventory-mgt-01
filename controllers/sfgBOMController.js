@@ -135,12 +135,6 @@ const getThirdPartyMetalSheetsBOM = async (req, res) => {
         .populate({
             path : 'children.object_id'
         })
-        // const newSFG = sfg.map(data => {
-        //     return {
-        //         sfgId : _id,
-
-        //     }
-        // })
         res.status(200).json(sfg);
     } catch (error) {
         res.status(400).json({ error: error.message });
@@ -156,6 +150,25 @@ const getDescriptionofSFG = async ( req, res ) => {
         res.status(400).json({ error: error.message });
     }
 }
+
+const getBOMBySFGSourceCategory = async ( req, res ) => {
+    const  {sfgSourcecategory}  = req.query;
+    const sfgSourceCategory_id = sfgSourcecategory
+    try {
+        const sfgBOMAsPerSourceCategory = await SFGBOM.find({source_category : sfgSourceCategory_id})
+        .populate({
+            path: 'source_category'
+        })
+        .populate({
+            path : 'children.object_id'
+        })
+        res.status(200).json(sfgBOMAsPerSourceCategory)
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+}
+
+
 module.exports = {
     createSFGBOM,
     createMultipleBOM,
@@ -164,5 +177,6 @@ module.exports = {
     updateSFGBOM,
     getThirdPartyPlasticActualBOM,
     getThirdPartyMetalSheetsBOM,
-    getDescriptionofSFG
+    getDescriptionofSFG,
+    getBOMBySFGSourceCategory
 }

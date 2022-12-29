@@ -64,7 +64,8 @@ const {
         updateSFGBOM,
         getThirdPartyPlasticActualBOM,
         getThirdPartyMetalSheetsBOM,
-        getDescriptionofSFG
+        getDescriptionofSFG,
+        getBOMBySFGSourceCategory
 } = require('../controllers/sfgBOMController');
 
 const {
@@ -234,6 +235,9 @@ router.get('/getThirdPartyMetalSheetsBOM', getThirdPartyMetalSheetsBOM)
 
 // get only description for identification
 router.get('/getDescriptionofSFG', getDescriptionofSFG)
+
+// get BOM by sfg category
+router.get('/getBOMBySFGSourceCategory', getBOMBySFGSourceCategory)
 
 
 //? ///////////////////////////   SFG SOURCE CATEGORY   ///////////////////////////
