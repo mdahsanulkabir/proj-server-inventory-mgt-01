@@ -116,6 +116,13 @@ const {
         updateSKUCategory
 } = require ('../controllers/skuCategoryController')
 
+const {
+        createPO,
+        getPOs,
+        getOnePO,
+        updatePO
+} = require ('../controllers/poController')
+
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
@@ -312,5 +319,14 @@ router.get('/createLCDetails', getLCDetails);
 // UPDATE LC DETAILS
 router.patch('/updateLCDetails/:lcDetailId', updateLCDetails);
 
+
+//? //////////////////////////// PO  /////////////////////////////
+
+router.post('/createPO', createPO);
+
+router.get('/getPOs', getPOs)
+router.get('/getOnePO', getOnePO)
+
+router.patch('/updatePO/:poId', updatePO)
 
 module.exports = router

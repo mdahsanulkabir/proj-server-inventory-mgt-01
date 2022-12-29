@@ -31,7 +31,14 @@ const poSchema = new Schema({
             required : true
         },
         unitPrice : {
-            type : Number
+            type : Number,
+            required : true
+        },
+        pendingQty : {
+            type: Number,
+            default : function () {
+                return this.quantity;
+            }
         }
     }]
 }, { timestamps: true })

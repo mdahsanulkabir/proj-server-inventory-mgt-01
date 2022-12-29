@@ -75,7 +75,7 @@ const getOneSFGBOM = async ( req, res ) => {
 }
 
 const updateSFGBOM = async ( req, res ) => {
-    const { sfgId} = req.params;
+    const { sfgId } = req.params;
     const { 
         object_id,
         material_name,
