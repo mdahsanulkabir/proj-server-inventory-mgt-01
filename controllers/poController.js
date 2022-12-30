@@ -1,13 +1,12 @@
-const POMODEL = require('../models/poModel');
+const PO = require('../models/poModel');
 
 // create PO
 const createPO = async ( req, res ) => {
-    console.log(req.body);
+    const { poNumber, poDate, partsOfPO } = req.body;
+    console.log(poNumber, poDate, partsOfPO);
     try {
-        const newPO = await POMODEL.create({
-            poNumber,
-            poDate,
-            partsOfPO
+        const newPO = await PO.create({
+            poNumber, poDate, supplierId, partsOfPO
         })
         res.status(200).json(newPO);
     } catch (error) {
@@ -19,9 +18,9 @@ const createPO = async ( req, res ) => {
 const getPOs = async ( req, res ) => {
     console.log(req.body);
     try {
-        const pos = await POMODEL.find({})
+        const pos = await PO.find({})
         .populate({
-            path : 'partsOfPO.model_type'
+            path : 'partsOfPO.object_id'
         })
         .populate({
             path : 'supplierId'
@@ -37,7 +36,7 @@ const getOnePO = async ( req, res ) => {
     const { poId } = req.params;
     console.log(poId);
     try {
-        const po = await POMODEL.findById({ _id : poId})
+        const po = await PO.findById({ _id : poId})
         res.status(200).json(po);
     } catch (error) {
         res.status(400).json({ error: error.message });
@@ -50,7 +49,7 @@ const updatePO = async ( req, res ) => {
     console.log(poId);
     console.log(req.body);
     try {
-        const updated_PO = await POMODEL.findOneAndUpdate(
+        const updated_PO = await PO.findOneAndUpdate(
             { _id : poId },
             { ...req.body },
             { new : true }

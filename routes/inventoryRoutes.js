@@ -324,9 +324,9 @@ router.patch('/updateLCDetails/:lcDetailId', updateLCDetails);
 
 router.post('/createPO', createPO);
 
-router.get('/getPOs', getPOs)
-router.get('/getOnePO', getOnePO)
+router.get('/getPOs', getPOs);
+router.get('/getOnePO', getOnePO);
 
-router.patch('/updatePO/:poId', updatePO)
+router.patch('/updatePO/:poId', updatePO);
 
 module.exports = router

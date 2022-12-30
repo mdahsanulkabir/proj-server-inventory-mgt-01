@@ -10,6 +10,11 @@ const poSchema = new Schema({
     poDate : {
         type : Date
     },
+    supplierId : {
+        type: Schema.Types.ObjectId,
+        ref : "SUPPLIER",
+        required : true
+    },
     partsOfPO : [ {
         object_id : {
             type: Schema.Types.ObjectId,
@@ -25,11 +30,6 @@ const poSchema = new Schema({
             type: Number,
             required : true
         },
-        supplierId : {
-            type: Schema.Types.ObjectId,
-            ref : "SUPPLIER",
-            required : true
-        },
         unitPrice : {
             type : Number,
             required : true
@@ -43,4 +43,4 @@ const poSchema = new Schema({
     }]
 }, { timestamps: true })
 
-module.exports = mongoose.model('POMODEL', poSchema)
+module.exports = mongoose.model('PO', poSchema)

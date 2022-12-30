@@ -233,7 +233,7 @@ Content-Type: application/json
 {
     "fileNumber" : "abcd",
     "lcNumber" : "dgsdfgdg",
-    "lcDate" : "2022-12-11T10:16:16.232Z",
+    "lcDate" : "2022-08-22T00:00:00.000Z",
     "piNumber" : "sdgsgs",
     "primarySupplierName" : "sgsfg",
     "secondarySupplierName" : "sdfsdffsd",
@@ -255,21 +255,17 @@ Content-Type: application/json
 
 
 ###
-post http://localhost:5000/api/rm
-Content-Type: : application/json
+post http://localhost:5000/api/createPO
+Content-Type: application/json
 
 {
-    "object_id" : "180000000000"
+    "poNumber" : "sfssdsgg232424d",
+    "poDate" : "2022-10-12",
+    "partsOfPO" : [{
+        "object_id" : "6398657223328b7eeff92374",
+        "model_type" : "SFGBOM",
+        "quantity" : 20,
+        "supplierId" : "63a4597c63b510ab3cb62e8b",
+        "unitPrice" : 10
+    }]
 }
-
-###
-# "source_category" : "L",
-    # "rm_category" : "",
-    # "sis_code" : "RMMRF-180000000000",
-    # "material_name" : "Super Glue",
-    # "unit" : "ml",
-    # "sap_code" : "180000000000"
-
-
-###
-get http://localhost:5000/api/getBOMBySFGCategory/?sfgSourcecategory=6395ad67dd62aaa6a3b58716
