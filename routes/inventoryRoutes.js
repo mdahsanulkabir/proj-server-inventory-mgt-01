@@ -120,7 +120,8 @@ const {
         createPO,
         getPOs,
         getOnePO,
-        updatePO
+        updatePO,
+        insertManyPO
 } = require ('../controllers/poController')
 
 
@@ -224,7 +225,7 @@ router.patch('/updateSupplier/:supplierId', updateSupplier)
 
 //? ///////////////////////////   BOM MANAGEMENT   ////////////////////////////////
 // create sfgBOM
-router.post('/createSFGBOM', checkAdminStatus, createSFGBOM);
+router.post('/createSFGBOM',  createSFGBOM);
 
 router.post('/createMultipleBOM', createMultipleBOM);
 
@@ -323,6 +324,7 @@ router.patch('/updateLCDetails/:lcDetailId', updateLCDetails);
 //? //////////////////////////// PO  /////////////////////////////
 
 router.post('/createPO', createPO);
+router.post('/insertManyPO', insertManyPO)
 
 router.get('/getPOs', getPOs);
 router.get('/getOnePO', getOnePO);

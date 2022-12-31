@@ -2,12 +2,25 @@ const PO = require('../models/poModel');
 
 // create PO
 const createPO = async ( req, res ) => {
-    const { poNumber, poDate, partsOfPO } = req.body;
-    console.log(poNumber, poDate, partsOfPO);
+    const { poNumber, poDate, supplierId, partsOfPO } = req.body;
+    console.log(poNumber, poDate, supplierId, partsOfPO);
     try {
         const newPO = await PO.create({
             poNumber, poDate, supplierId, partsOfPO
         })
+        res.status(200).json(newPO);
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+}
+
+//insert many po
+const insertManyPO = async ( req, res ) => {
+    console.log(req.body);
+    try {
+        const newPO = await PO.insertMany([
+            ...req.body
+        ])
         res.status(200).json(newPO);
     } catch (error) {
         res.status(400).json({ error: error.message });
@@ -64,5 +77,6 @@ module.exports = {
     createPO,
     getPOs,
     getOnePO,
-    updatePO
+    updatePO,
+    insertManyPO
 }

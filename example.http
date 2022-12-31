@@ -261,11 +261,11 @@ Content-Type: application/json
 {
     "poNumber" : "sfssdsgg232424d",
     "poDate" : "2022-10-12",
+    "supplierId" : "63a4597c63b510ab3cb62e8b",
     "partsOfPO" : [{
         "object_id" : "6398657223328b7eeff92374",
         "model_type" : "SFGBOM",
         "quantity" : 20,
-        "supplierId" : "63a4597c63b510ab3cb62e8b",
         "unitPrice" : 10
     }]
 }
