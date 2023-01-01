@@ -1,4 +1,4 @@
-const PO = require('../models/poModel');
+const PO = require('../models/Local/poModel');
 
 // create PO
 const createPO = async ( req, res ) => {

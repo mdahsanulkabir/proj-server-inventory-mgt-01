@@ -1,4 +1,4 @@
-const FGPROD = require('../models/fgModel');
+const FGPROD = require('../models/FG/fgModel');
 
 //post daily FG production
 const postFgProductionMany = async (req, res) => {

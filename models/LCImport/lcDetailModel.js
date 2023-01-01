@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
 
 const lcDetailSchema = new Schema({
-    fileNumber : {
+    lcId : {
         type: mongoose.Schema.Types.ObjectId,
         ref : "LCSUMMARY",
         required: true

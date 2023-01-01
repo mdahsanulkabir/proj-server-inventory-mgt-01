@@ -1,4 +1,4 @@
-const LCSTATUSOPTION = require('../models/lcStatusOptionModel');
+const LCSTATUSOPTION = require('../models/LCImport/lcStatusOptionModel');
 
 const postLCStatusOption = async ( req, res ) => {
     const { status, description } = req.body;

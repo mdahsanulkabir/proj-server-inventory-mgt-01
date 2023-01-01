@@ -1,4 +1,4 @@
-const SKU = require('../models/skuModel');
+const SKU = require('../models/FG/skuModel');
 const mongoose = require('mongoose');
 
 

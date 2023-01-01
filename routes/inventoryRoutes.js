@@ -124,6 +124,10 @@ const {
         insertManyPO
 } = require ('../controllers/poController')
 
+const {
+        createMonthlyInventory
+} = require('../controllers/monthlyClosingInventoryController');
+
 
 //? //////////////////   ALL ROUTES FOR SKU    /////////////////////
 //get all SKU
@@ -330,5 +334,10 @@ router.get('/getPOs', getPOs);
 router.get('/getOnePO', getOnePO);
 
 router.patch('/updatePO/:poId', updatePO);
+
+
+//? ////////////////// MONTHLY CLOSING INVENTORY //////////////////
+
+router.post('/createMonthlyInventory', createMonthlyInventory)
 
 module.exports = router

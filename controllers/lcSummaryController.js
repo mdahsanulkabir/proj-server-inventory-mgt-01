@@ -1,4 +1,4 @@
-const LCSUMMARY = require('../models/lcSummaryModel');
+const LCSUMMARY = require('../models/LCImport/lcSummaryModel');
 
 const createLCSummary = async ( req, res ) => {
     const { 

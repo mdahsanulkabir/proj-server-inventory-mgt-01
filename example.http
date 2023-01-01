@@ -269,3 +269,11 @@ Content-Type: application/json
         "unitPrice" : 10
     }]
 }
+
+###
+post http://localhost:5000/api/createMonthlyInventory
+Content-Type: application/json
+
+{
+    "closingDate" : "2022-11-30"
+}

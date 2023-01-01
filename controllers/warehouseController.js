@@ -1,4 +1,4 @@
-const WAREHOUSE = require('../models/newWarehouseModel');
+const WAREHOUSE = require('../models/Location/warehouseModel');
 
 
 

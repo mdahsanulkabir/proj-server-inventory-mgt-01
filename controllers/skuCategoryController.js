@@ -1,4 +1,4 @@
-const SKUCATEGORY = require('../models/skuCategoryModel');
+const SKUCATEGORY = require('../models/FG/skuCategoryModel');
 
 //create a NEW SKU CATEGORY
 const createSKUCategory = async ( req, res ) => {

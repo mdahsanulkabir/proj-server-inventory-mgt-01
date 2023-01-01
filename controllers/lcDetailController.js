@@ -1,4 +1,4 @@
-const LCDETAIL = require('../models/lcDetailModel')
+const LCDETAIL = require('../models/LCImport/lcDetailModel')
 
 
 const createLCDetails = async ( req, res ) => {
